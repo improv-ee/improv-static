@@ -8,5 +8,8 @@ export default defineNuxtConfig({
             serverDir: 'output/server',
             publicDir: 'output/public'
         }
-    }
+    },
+    "css": [
+        "~/assets/scss/main.scss"
+    ]
 })
