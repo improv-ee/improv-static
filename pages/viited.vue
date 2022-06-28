@@ -29,9 +29,19 @@
             <li><a href="https://pooltund.improv.ee">Impropooltund</a></li>
         </ul>
 
+        <h1>Festivalid</h1>
+        <ul>
+            <li><a href="https://improfestival.ee/">Tilt improfestival</a></li>
+            <li><a href="https://ruutu10.ee/festival/">Ruutu10 festival</a></li>
+        </ul>
         <h1>Videoloengud</h1>
         <ul>
             <li><a href="https://www.youtube.com/watch?v=tCtHCvTDJZE">Suhtle nagu improviseerija | Martin Junna | TEDxTartu (2022)</a></li>
+        </ul>
+        <h1>Koolitajad</h1>
+        <ul>
+            <li><a href="https://rahelotsa.ee/">Rahel Otsa</a></li>
+            <li><a href="https://www.bewise.ee/">Be Wise</a></li>
         </ul>
     </div>
 </template>
