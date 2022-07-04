@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="text-center col-md-8 offset-md-2">
-        <h1>improviseeritud teater eestis</h1>
+        <h1 class="text-smallcaps">improviseeritud teater eestis</h1>
         <p class="lead">
             Improteater ehk improvisatsiooniline teater on üks teatri liikidest,
             kus lugu, karakterid, dialoogid ja stseenid mõeldakse kohapeal välja

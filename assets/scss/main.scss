@@ -7,3 +7,15 @@
 
 // Finally load bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
+
+
+.text-smallcaps {
+    font-variant: small-caps;
+}
+
+.img-header {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 20em;
+    width: 100%;
+}
