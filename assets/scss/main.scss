@@ -25,3 +25,17 @@ a {
         border-bottom: 2px solid $gray-800;
     }
 }
+
+.card-img-top {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 15em;
+    width: 100%;
+}
+
+.img-grid {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 10em;
+    width: 100%;
+}
