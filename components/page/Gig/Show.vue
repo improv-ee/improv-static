@@ -10,7 +10,7 @@
 
         <p>Tellimusesinemisi pakuvad järgmised trupid - võrdle pakkumisi, ning võta valitud trupiga ühendust.</p>
 <hr />
-        <GigAd image="/assets/img/ruutu10-tellimus.jpg" name="Ruutu10"
+        <GigAd image="ruutu10-tellimus.jpg" name="Ruutu10"
          link="https://www.ruutu10.ee/tellimeid.html">
             <template #description>
                 <p>Ruutu10 pakub humoorikat improteatri etendust, mis on ​personaalne. Teemad, mida puudutame on mõeldud
@@ -20,7 +20,7 @@
             </template>
         </GigAd>
 
-        <GigAd image="/assets/img/impeerium-tellimus.jpg"
+        <GigAd image="impeerium-tellimus.jpg"
         name="Improteater IMPEERIUM" link="https://improimpeerium.ee/tellimused/">
             <template #description>
                 <p>Kas otsid meelelahutajat/esinejat sünnipäevale, pulma, suvepäevadele, jõulupeole, aktusele või

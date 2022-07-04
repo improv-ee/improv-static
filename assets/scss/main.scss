@@ -19,3 +19,9 @@
     height: 20em;
     width: 100%;
 }
+
+a {
+    &.nav-link.active {
+        border-bottom: 2px solid $gray-800;
+    }
+}

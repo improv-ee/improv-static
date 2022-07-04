@@ -1,6 +1,6 @@
 <template>
 <div>
-    <img :src="image" class="img-header rounded mt-4 mb-2"/>
+    <img :src="imgUrl" class="img-header rounded mt-4 mb-2"/>
     <slot name="description"></slot>
     <a class="btn btn-primary col-8 offset-2 mb-5 mt-3" :href="link" target="_blank">
         Loe edasi ja telli {{ name }}
@@ -15,6 +15,11 @@ export default defineComponent({
         link: { type: String, required: true },
         image: { type: String, required: true },
         name: {type: String, required: true}
+  },
+  computed: {
+    imgUrl() {
+        return new URL(`../../assets/img/${this.image}`, import.meta.url);
+    }
   }
 })
 
