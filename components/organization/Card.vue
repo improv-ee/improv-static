@@ -10,7 +10,7 @@
 
             </div>
             <div class="card-footer text-center">
-    <a :href="link" target="_blank" class="btn col-12 btn-primary">{{ name }} veebileht</a>
+    <a :href="link" target="_blank" class="btn col-12 btn-outline-primary">{{ name }} veebileht</a>
   </div>
         </div>
     </div>

@@ -18,6 +18,9 @@
             <NuxtLink to="/tellimine" class="nav-link px-2 link-dark" activeClass="active">Tellimine</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/oppimine" class="nav-link px-2 link-dark" activeClass="active">Õppimine</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/viited" class="nav-link px-2 link-dark" activeClass="active">Viited</NuxtLink>
           </li>
         </ul>
@@ -32,7 +35,7 @@
 
     </main>
     <footer class="pt-5 my-5 text-muted text-center border-top">
-      improv.ee &copy; 2022
+      improv.ee &copy; 2022 | <a class="text-muted" href="https://github.com/improv-ee/improv-static">GitHub</a>
     </footer>
   </div>
 

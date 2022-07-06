@@ -38,10 +38,19 @@
         <ul>
             <li><a href="https://www.youtube.com/watch?v=tCtHCvTDJZE">Suhtle nagu improviseerija | Martin Junna | TEDxTartu (2022)</a></li>
         </ul>
+        <h1>Akadeemilised tekstid</h1>
+        <ul>
+            <li><a href="https://akadeemiake.ee/wp-content/uploads/2018/10/Olli.pdf">"Improteater Eestis"</a> - Marie Olli, Hugo Treffneri Gümnaasium (2018)</li>
+        </ul>
+  
         <h1>Koolitajad</h1>
         <ul>
             <li><a href="https://rahelotsa.ee/">Rahel Otsa</a></li>
             <li><a href="https://www.bewise.ee/">Be Wise</a></li>
+        </ul>
+        <h1>Tööriistad</h1>
+        <ul>
+            <li><a href="https://inspireeri.improv.ee">Inspiraator</a>(pakkumiste genereerija)</li>
         </ul>
     </div>
 </template>

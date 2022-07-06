@@ -33,8 +33,8 @@
                     võimu.
                     Improteater IMPEERIUM soovib vallutada kõikide eestlaste südamed ning tekitada sellega
                     maailmakaardile veel
-                    üks improrõõmust tulvil maa, kus inimesed väärtustavad koostööd ja loovust ning kus valitseb
-                    kujutluse võim.</p>
+                    üks improrõõmust tulvil maa, kus inimesed väärtustavad koostööd ja loovust ning kus valitseb</p>
+                    <p class="lead text-center">kujutluse võim.</p>
             </template>
         </OrganizationCard>
 
