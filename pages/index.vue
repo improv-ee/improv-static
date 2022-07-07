@@ -39,7 +39,7 @@
                 <ModalImage id="img-jaa" image="jaa.jpg" title="Jaa Improteater" />
             </div>
             <div class="col">
-                <ModalImage id="img-impeerium" image="impeerium.jpg" title="Jaa Improteater" />
+                <ModalImage id="img-impeerium" image="impeerium.jpg" title="Improteater IMPEERIUM" />
             </div>
         </div>
 

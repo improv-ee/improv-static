@@ -34,7 +34,7 @@
                     Improteater IMPEERIUM soovib vallutada kõikide eestlaste südamed ning tekitada sellega
                     maailmakaardile veel
                     üks improrõõmust tulvil maa, kus inimesed väärtustavad koostööd ja loovust ning kus valitseb</p>
-                    <p class="lead text-center">kujutluse võim.</p>
+                <p class="lead text-center">kujutluse võim.</p>
             </template>
         </OrganizationCard>
 
@@ -62,6 +62,20 @@
                     võimele improviseerida.</p>
                 <p>Eesti Improteater loob igal etendusel uue maailma – uute tegelaste, uute suhete, uute laulude ja
                     naljadega… tänaseks oleme seda teinud juba üle kahesaja korra. </p>
+            </template>
+        </OrganizationCard>
+        <OrganizationCard name="Kahe Vahel" image="kahe-vahel.jpeg" link="https://ruutu10.ee/">
+            <template #description>
+                <p>Nad on kaks sõpra, Märt ja Kristjan, kelle koostöö on kestnud juba mitu hooaega. Kahekesi laval
+                    hakkama saamine on väljakutse, mille nad alati rõõmuga vastu võtavad ja millega meisterlikult toime
+                    tulevad. Nad pakuvad hulgaliselt spontaansust, äratundmisrõõmu ja pisarateni liigutavaid
+                    suhtesituatsioone. </p>
+
+                <p>
+                    Märt ja Kristjan küsivad publikuliimetelt muusikapala, millest saab nende etteaste intro. Nad
+                    inspireeruvad muusika emotsioonist ning seejärel improviseerivad kuni 30 minuti pikkuse näidendi.
+                    Raske on ette ennustada, millest nende lugu räägib, kuid seni on need olnud südamlikud, koomilised
+                    ja kaasahaaravad.</p>
             </template>
         </OrganizationCard>
     </div>
