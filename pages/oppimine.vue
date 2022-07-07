@@ -7,7 +7,7 @@
         </p>
 
         <LearnCourse image="ruutu10-kool.jpeg" cta="Ruutu10 - sissejuhatus improsse"
-            link="https://improimpeerium.ee/tellimused/">
+            link="https://ruutu10.ee/tootoad/">
             <template #description>
                 <p>Alusta naeruküllast improteekonda, et vabastada loominguline potentsiaal ning ületada hirm esinemise
                     ja vigade tegemise ees! Meie töötubades on toetav ja sõbralik suhtumine ning kogenud juhendajad.

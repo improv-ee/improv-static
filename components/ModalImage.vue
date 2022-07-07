@@ -27,7 +27,7 @@ export default defineComponent({
     },
     computed: {
     imgUrl() {
-        return new URL(`../../assets/img/${this.image}`, import.meta.url);
+        return new URL(`../assets/img/${this.image}`, import.meta.url);
     }
     }
 })
