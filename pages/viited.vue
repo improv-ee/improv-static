@@ -50,7 +50,7 @@
         </ul>
         <h1>Tööriistad</h1>
         <ul>
-            <li><a href="https://inspireeri.improv.ee">Inspiraator</a>(pakkumiste genereerija)</li>
+            <li><a href="https://inspireeri.improv.ee">Inspiraator</a> (pakkumiste genereerija)</li>
         </ul>
     </div>
 </template>

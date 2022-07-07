@@ -35,7 +35,7 @@
 
     </main>
     <footer class="pt-5 my-5 text-muted text-center border-top">
-      improv.ee &copy; 2022 | <a class="text-muted" href="https://github.com/improv-ee/improv-static">GitHub</a>
+      improv.ee &copy; 2022 | {{ contactEmail }} | <a href="https://github.com/improv-ee/improv-static">GitHub</a> 
     </footer>
   </div>
 
@@ -45,15 +45,28 @@
 </template>
 <script>
 export default {
+  computed: {
+    contactEmail() {
+      return this.hex2a('737570706f727440696d70726f762e6565')
+    }
+  },
+  methods: {
+    hex2a: function (hex) {
+      var str = '';
+      for (var i = 0; i < hex.length; i += 2)
+        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
+      return str;
+    }
+  },
   head() {
     return {
       title: 'improv.ee',
       meta: [
         { name: 'description', content: 'improv.ee koondab infot Eestis tegutsevate improtruppid kohta' },
-        { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus'}
+        { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus' }
       ],
       link: [
-        {rel: 'icon', type: 'image/png', href:'/assets/img/favicon.png'}
+        { rel: 'icon', type: 'image/png', href: '/assets/img/favicon.png' }
       ],
       script: [
         {
