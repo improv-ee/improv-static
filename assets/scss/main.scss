@@ -35,7 +35,14 @@ a {
 
 .img-grid {
     object-fit: cover;
-    object-position: 0 0;
+    object-position: 50% 50%;
     height: 10em;
     width: 100%;
+    margin-top:1em;
+}
+
+@include media-breakpoint-up(xxl){
+    .img-grid {
+        height: 15em;
+    }
 }

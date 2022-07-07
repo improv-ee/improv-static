@@ -32,26 +32,24 @@
 
         <hr class="col-3 col-md-12 mb-5">
         <div class="row align-items-center">
-            <div class="col">
+            <div class="col-md-4 col-lg-6">
                 <ModalImage id="img-improgeddon" image="improgeddon.jpg" title="Improgeddon" />
             </div>
-            <div class="col">
+            <div class="col-md-4 col-lg-6">
                 <ModalImage id="img-jaa" image="jaa.jpg" title="Jaa Improteater" />
             </div>
-            <div class="col">
+            <div class="col-md-4 col-lg-6">
                 <ModalImage id="img-impeerium" image="impeerium.jpg" title="Improteater IMPEERIUM" />
             </div>
-        </div>
 
-        <div class="row mt-4 align-items-center">
-            <div class="col">
+            <div class="col-md-4 col-lg-6">
                 <ModalImage id="img-improteater" image="improteater.jpeg" title="Eesti Improteater" />
 
             </div>
-            <div class="col">
-                <ModalImage id="img-ruutu10" image="impeerium.jpg" title="Ruutu10" />
+            <div class="col-md-4 col-lg-6">
+                <ModalImage id="img-ruutu10" image="ruutu10.jpg" title="Ruutu10" />
             </div>
-            <div class="col">
+            <div class="col-md-4 col-lg-6">
                 <ModalImage id="img-eha" image="eha.jpg" title="Ehatäht" />
             </div>
         </div>
