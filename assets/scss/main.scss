@@ -36,8 +36,8 @@ a {
 .img-grid {
     object-fit: cover;
     object-position: 50% 50%;
-    height: 10em;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     margin-top:1em;
 }
 

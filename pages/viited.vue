@@ -32,8 +32,6 @@
             </template>
         </AccordionItem>
 
-
-
         <AccordionItem title="Podcastid" parentId="links">
             <template #collapse-body>
 
@@ -45,8 +43,6 @@
                 </ul>
             </template>
         </AccordionItem>
-
-
 
         <AccordionItem title="Festivalid" parentId="links">
             <template #collapse-body>
@@ -64,8 +60,6 @@
             </template>
         </AccordionItem>
 
-
-
         <AccordionItem title="Videoloengud" parentId="links">
             <template #collapse-body>
                 <ul>
@@ -74,7 +68,6 @@
                 </ul>
             </template>
         </AccordionItem>
-
 
         <AccordionItem title="Akadeemilised tekstid" parentId="links">
             <template #collapse-body>
