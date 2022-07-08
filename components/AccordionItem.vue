@@ -19,11 +19,24 @@ import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({
     props: {
-        headerId: { type: String, required: true },
         title: { type: String, required: true },
         parentId: { type: String, required: true },
-        collapseId: {type: String, required: true}
-    }
+    },
+    methods: {
+        slugify: function (stringToSlug) {
+            return stringToSlug.toLowerCase()
+                .replace(/ /g, '-')
+                .replace(/[^\w-]+/g, '');
+        }
+    },
+    computed: {
+        headerId() {
+            return 'h-' + this.slugify(this.title);
+        },
+        collapseId() {
+            return 'collapse-' + this.slugify(this.title);
+        }
+    },
 })
 
 </script>

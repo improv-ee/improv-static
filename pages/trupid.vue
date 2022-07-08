@@ -5,14 +5,14 @@
         <OrganizationCard name="Ruutu10" image="ruutu10.jpg" link="https://ruutu10.ee">
             <template #description>
                 <p>Pidulikkus on tore ja tervitatav, aga veel rohkem meeldib meile vaba ja lõbus õhkkond.</p>
-                ​<p>Kujuta ette, et sa istud koos oma parimate sõpradega. Iga uus mõte, mis välja öeldakse on naljakam
+                <p>Kujuta ette, et sa istud koos oma parimate sõpradega. Iga uus mõte, mis välja öeldakse on naljakam
                     kui eelmine,
                     samal ajal te kõik teadvustate endale “kui loll see on”. See on selline hetk, mida sa ei saa edasi
                     rääkida.
                     See on see klassikaline “sa oleksid pidanud seal olema” moment. </p>
 
-                ​<p>Me oleme Ruutu10 ja just sellise õhkkonna loomisele olemegi keskendunud. </p>
-                ​<p>Me oleme õppinud improkomöödiat Chicagos, Londonis, Barcelonas, Kopenhaagenis ja Tamperes oma
+                <p>Me oleme Ruutu10 ja just sellise õhkkonna loomisele olemegi keskendunud. </p>
+            <p>Me oleme õppinud improkomöödiat Chicagos, Londonis, Barcelonas, Kopenhaagenis ja Tamperes oma
                     ala parimate juhendajate käe all ning nüüd anname neid teadmisi edasi. Me töötame selle nimel,
                     et tõsta kohalikku komöödiakvaliteeti. Meil on unistus, et ühel päeval on Eestis kool ja teater,
                     mis keskendub improle ja annab inimestele võimaluse lõõgastuda ning naerda kogu südamest.</p>
