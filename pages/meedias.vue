@@ -25,5 +25,5 @@
 
 
 <script setup>
-const { pending, data: news } = useLazyFetch('/media.json')
+import news from '../public/media.json';
 </script>
