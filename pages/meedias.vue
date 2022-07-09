@@ -25,5 +25,5 @@
 
 
 <script setup>
-const { pending, data: news } = useLazyFetch('/api/media')
+const { pending, data: news } = useLazyFetch('/media.json')
 </script>

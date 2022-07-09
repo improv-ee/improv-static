@@ -21,9 +21,6 @@
             <NuxtLink to="/oppimine" class="nav-link px-2 link-dark" activeClass="active">Õppimine</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/meedias" class="nav-link px-2 link-dark" activeClass="active">Meedias</NuxtLink>
-          </li>
-          <li>
             <NuxtLink to="/viited" class="nav-link px-2 link-dark" activeClass="active">Viited</NuxtLink>
           </li>
         </ul>
