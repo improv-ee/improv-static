@@ -54,7 +54,7 @@
             </template>
         </OrganizationCard>
 
-        <OrganizationCard name="Eesti Improteater" image="improteater.jpeg" link="http://www.improteater.ee/">
+        <OrganizationCard name="Eesti Improteater" image="improteater.jpg" link="http://www.improteater.ee/">
             <template #description>
                 <p>2009. aastal haaras improteatri õppimise võimalusest kinni hulk noori TÜ Viljandi Kultuuriakadeemia
                     lõpetajaid ja nendega koos panimegi kassi katusele: 2009. aasta 29. oktoobril läksime No99 Teatris
@@ -64,7 +64,7 @@
                     naljadega… tänaseks oleme seda teinud juba üle kahesaja korra. </p>
             </template>
         </OrganizationCard>
-        <OrganizationCard name="Kahe Vahel" image="kahe-vahel.jpeg" link="https://ruutu10.ee/">
+        <OrganizationCard name="Kahe Vahel" image="kahe-vahel.jpg" link="https://ruutu10.ee/">
             <template #description>
                 <p>Nad on kaks sõpra, Märt ja Kristjan, kelle koostöö on kestnud juba mitu hooaega. Kahekesi laval
                     hakkama saamine on väljakutse, mille nad alati rõõmuga vastu võtavad ja millega meisterlikult toime

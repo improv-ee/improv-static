@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-improteater" image="improteater.jpeg" title="Eesti Improteater" />
+                <ModalImage id="img-improteater" image="improteater.jpg" title="Eesti Improteater" />
 
             </div>
             <div class="col-sm-6 col-md-4 col-lg-6">
