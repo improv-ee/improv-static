@@ -1,4 +1,8 @@
 <template>
+<p>
+    Impro-teemaline meediakajastus Eestis läbi aegade. Siin on välja toodud peamiselt suuremate
+    meediaväljaannete kajastused.
+</p>
     <ul class="timeline">
 
         <template v-for="year in Object.keys(news).reverse()" :key="'year-'+year">

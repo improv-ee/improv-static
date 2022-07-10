@@ -3,7 +3,7 @@
     <div class="timeline-badge"><i class="bi bi-calendar3"></i></div>
     <div class="timeline-panel">
       <div class="timeline-heading">
-        <h5 class="timeline-title">
+        <h5 class="timeline-title" :id="'h-'+uid">
           <slot name="title" />
         </h5>
         <p><small class="text-muted">
@@ -19,6 +19,8 @@
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'
+import md5 from 'md5';
+
 export default defineComponent({
   props: {
     inverted: { type: Boolean, default: false },
@@ -28,6 +30,9 @@ export default defineComponent({
     image: { type: String, required: false }
   },
   computed: {
+    uid(){
+      return md5(this.link);
+    },
     invertedClass() {
       return this.inverted ? 'timeline-inverted' : '';
     },
