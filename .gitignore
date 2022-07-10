@@ -7,3 +7,4 @@ output
 .env
 dist
 .output
+.DS_Store

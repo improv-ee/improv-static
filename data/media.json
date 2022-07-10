@@ -1,4 +1,22 @@
   {
+    "2022":[
+      {
+        "title":"Esinemishirmuga kimpus olnud Anti Veeranna sai sellest improteatriga üle",
+        "date":"2022-05-19",
+        "image":"2022-ringvaade.jpg",
+        "publisher":"ERR",
+        "description":"Esinemishirmuga ehk glossofoobiaga aastaid kimpus olnud Anti Veeranna rääkis Ringvaates, kuidas ta sellest improteatri abil üle sai. \"Üks võimalus selleks on improteatriga tegelemine,\" ütles Veeranna. Tema sõnul on improteater suuresti seotud nalja tegemisega laval. \"Sa hakkad õppima seda turvalises ruumis, kus on koos umbes seitse kuni kümme inimest ja te kõik teete sama asja,\" lausus Veeranna ja tõi Ringvaates ka konkreetse näite, mida improteatris tehakse, et esinemishirmu alandada",
+        "link":"https://menu.err.ee/1608602950/esinemishirmuga-kimpus-olnud-anti-veeranna-sai-sellest-improteatriga-ule"
+      },
+      {
+        "title":"Lõuna-Eestis algab vaimset tervist toetav improvisatsioonituur",
+        "date":"2022-03-31",
+        "description":"«Vaimse tervise improetendusel loome koos publikuga turvalise õhkkonna ning naudime huumori abil stressi vähendamist, heaolu suurendamist ning seeläbi oma vaimse ja füüsilise tervise parandamist,» ütles «Peaasi ajab naerma!» projektijuht Minna Sild.",
+        "link":"https://tervis.postimees.ee/7489850/louna-eestis-algab-vaimset-tervist-toetav-improvisatsioonituur",
+        "image":"2022-postimees-vti.jpeg",
+        "publisher":"Postimees"
+      }
+    ],
     "2020": [
       {
         "title": "Merilin Kirbits räägib Improteatri tegemistest",
@@ -34,7 +52,6 @@
         "link": "https://sirp.ee/s1-artiklid/teater/tilt-soom-improvisatsiooni-varsket-ohku/",
         "image": "2019-sirp-tilt.jpg"
       },
-
       {
         "title": "Improteater IMPEERIUM räägib Kuku Raadio saates “Publikumärk” algavast hooajast.​",
         "description": "Septembri viimases Publikumärgis on juttu Improteater Impeeriumi, VAT teatri ja Vaba lava hooaja algusest, lavastustest Pariisitar ja Lõhe, rahvusvahelisest Muusikapäevast ning Eesti Muusika ja Teatriakadeemia 100ndast sünnipäevast. Saatjuht on Liis Seljamaa.",
@@ -58,7 +75,6 @@
         "date": "2019-09-07",
         "description": "Jõudsin eile õhtul kella veerand 8 ajal Katariina kiriku ukse taha. Parajasti lõppes eelnev, ehk tänavuaastase improteatrite festivali TILT esimene etendus... kuulsin kiriku ukse tagant tormilist aplausi ja ebaeestlaslikku vaimustuskisa... sellele ma töölt linna kimamisest hoolimata ei jõudnud...\n"
       },
-
       {
         "link": "https://kuku.pleier.ee/podcast/publikumark/44240",
         "title": "Publikumärk 2019-09-07",
@@ -74,6 +90,34 @@
         "description": "19-21.09 Katariina kirikus toimuv seitsmes rahvusvaheline improteatrite festival Tilt toob nii lavale kui töötubadesse varasemast rohkem naisimprotajaid.  Festivali jooksul jõuab publiku ette näiteks soolomuusikal, mille improviseerib USA impronäitleja Stacey Smith ning programmi lõpetab etendus “Seitse eri vanuses naist” Poolast.\n"
       }
     ],
+    "2018": [
+      {
+        "link": "https://menu.err.ee/861978/improfestival-toob-lavale-etendused-romantilisest-komoodiast-tarantino-tolgendusteni",
+        "title": "Improfestival toob lavale etendused romantilisest komöödiast Tarantino tõlgendusteni",
+        "publisher": "ERR",
+        "date": "2018-09-17",
+        "image": "2018-tilt-err.webp",
+        "description": "Neljapäevast laupäevani leiab Kinomajas aset juba kuues rahvusvaheline improteatrite festival Tilt. Sel korral on festivalil etendusi romantilisest komöödiast Tarantino tõlgendusteni."
+      },
+      {
+        "link": "http://www.sirp.ee/s3-pressiteated/improfestival-otsib-vanamemmesid-ja-taate/",
+        "title": "Improfestival otsib vanamemmesid ja -taate",
+        "publisher": "Sirp",
+        "date": "2018-09-03",
+        "image": "2018-poulpe.jpg",
+        "description": "Etendusega “(G)oldies” (tõlk. “Muld või kuld”) Kinomaja lavale astuva Poulpe Productioni lähtekohaks on intervjuud vanema generatsiooni esindajatega, mille läbi nad nende elu mõista püüavad.\n"
+      }
+    ],
+    "2017": [
+      {
+        "link": "http://menu.err.ee/617874/improteatrite-festival-tilt-annab-voimu-publikule",
+        "title": "Improteatrite festival Tilt annab võimu publikule",
+        "publisher": "ERR",
+        "date": "2017-09-11",
+        "image": "2017-tilt.webp",
+        "description": "Improteatrite festival Tilt toob Katariina kiriku lavale parimad improtajad nii Eestist kui ka välismaalt."
+      }
+    ],
     "2016": [
       {
         "title": "Improteater on lollakas. Parimas mõttes",
@@ -82,8 +126,41 @@
         "publisher": "Sirp",
         "link": "https://www.sirp.ee/s1-artiklid/teater/improteater-on-lollakas-parimas-mottes/",
         "image": "2016-sirp.jpg"
+      },
+      {
+        "url": "http://menu.err.ee/292694/improteatrite-festival-tilt-toob-kohale-osalejad-nii-rootsist-belgiast-kui-ka-ameerikast",
+        "title": "Improteatrite festival Tilt toob kohale osalejad nii Rootsist, Belgiast kui ka Ameerikast",
+        "publisher": "ERR",
+        "image": "2016-tilt-err.webp",
+        "date": "2016-10-20",
+        "excerpt": "20.-22. oktoobrini leiab kinos Sõprus aset juba neljas rahvusvaheline improteatrite festival Tilt. Tegemist on spontaanse teatri peoga, sest kõik publiku ette jõudvad lavastused sünnivad kohapeal ning neid on võimalik näha vaid üks kord.\n"
+      },
+      {
+        "link": "http://www.sirp.ee/s1-artiklid/teater/pealelend-rahel-otsa-improteatrite-festivali-tilt-peakorraldaja/",
+        "title": "Pealelend – Rahel Otsa, improteatrite festivali „Tilt“ peakorraldaja",
+        "publisher": "Sirp",
+        "date": "2016-10-14",
+        "description": "Festivali „Tilt\" peakorraldaja Rahel Otsa räägib intervjuus festivalist, improteatri tasemest Eestis ning selgitab, mis teeb improteatri eriliseks.\n"
       }
     ],
+      "2015": [
+        {
+          "link": "http://kultuur.postimees.ee/3346931/algab-improteatrite-festival-tilt",
+          "title": "Algab improteatrite festival «Tilt»",
+          "publisher": "Postimees",
+          "date":"2015-10-01",
+          "image":"2015-tilt-postimees.jpeg",
+          "description":"«Tilt» toimub sel aastal juba kolmandat korda. Varasematel aastatel on festivalil osalenud esinejad muuhulgas ka Lätist, Hollandist, Norrast, Itaaliast, Austraaliast. Sel aastal toimuv festival valmib kolme improtrupi, Eesti Improteater, improteater Kogu Moos ja Improgrupp Jaa! koostöös."
+        },
+        {
+          "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20151002.2.25.1",
+          "title": "Värsked vaatenurgad improteatrite festivalil",
+          "date":"2015-10-02",
+          "image":"2015-tilt-aripaev.jpg",
+          "publisher": "Äripäev",
+          "description":"Tallinnas on täna ja homme võimalik osa saada parimatest improvisatsioonilise teatri etendustest Eestist ja välismaalt. Käimas on kolmas improteatrite festival TILT."
+        }
+      ],
     "2014": [
       {
         "title": "Teater, kus ei kasutata käsikirja",
@@ -100,6 +177,32 @@
         "publisher": "Müürileht",
         "link": "https://www.muurileht.ee/improteater-impeerium-jaa-ambri-valjakutse/",
         "image": "2014-muurileht.jpg"
-      }
-    ]
+      },
+          {
+            "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20141107.2.25.1&e=-------ru-10--1--txt-txTA-%2522dirigendid%2522-ARTICLE----dirigendid----#",
+            "title": "Ootamatute pööretega teater",
+            "publisher": "Äripäev",
+            "image":"2014-tilt-aripaev.jpg",
+            "description":"Kui looduses on värviliste puulehtede aeg juba läbi saamas, leiab värvikirevust ja energiat improteatrite festivalil T1LT, mis praegu Tallinna klubis Sinilind käimas on.",
+            "date":"2014-11-07"
+          },
+          {
+            "link": "http://tallinncity.postimees.ee/2981841/improteatrid-kogunesid-tallinna-festivali-pidama",
+            "title": "Improteatrid kogunesid Tallinna festivali pidama",
+            "publisher": "Postimees",
+            "image":"2014-tilt-pilet.jpg",
+            "description":"«Meil on hea meel, et festival on kasvanud juba nii laiahaardeliseks, et sellest võtavad osa teiste hulgas esinejad USA-st ja üks töötubade tegija Austraaliast. Adam & Emily on fantastiline improduo New Yorgist, kes on publikut naerutanud juba aastaid. Rama Nicholase näol on aga tegemist hinnatud koolitajaga Melbourne’ist, kes saabub meie juurde otse kolmeteistkümnendalt Würzburgi rahvusvaheliselt improfestivalilt.» tutvustas festivali peakorraldaja Rahel Otsa.",
+            "date":"2014-11-06"
+          }
+    ],
+      "2013": [
+        {
+          "link": "https://menu.err.ee/269693/naitlejad-tegid-ringvaates-improteatrit",
+          "title": "Näitlejad tegid Ringvaates improteatrit",
+          "publisher": "ERR",
+          "date":"2013-10-18",
+          "image":"2013-ringvaade.webp",
+          "description":"Eesti improteatri näitlejad Erki Aule ja Rauno Kaibiainen näitasid Ringvaate otse-eetris, mida nende etendustel näha saab. Üritusega soovitaksegi improteatrite tegevust laiemalt tutvustada ning festivalil astuvad üles kõik kodumaal tegutsevad improteatrid - Eesti Improteater, Improkraatia, Improgrupp Jaa!. Samuti on külas teatrid Soomest, Lätist, Norrast ja Inglismaalt."
+        }
+      ]
   }
