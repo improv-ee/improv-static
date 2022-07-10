@@ -1,20 +1,20 @@
   {
-    "2022":[
+    "2022": [
       {
-        "title":"Esinemishirmuga kimpus olnud Anti Veeranna sai sellest improteatriga üle",
-        "date":"2022-05-19",
-        "image":"2022-ringvaade.jpg",
-        "publisher":"ERR",
-        "description":"Esinemishirmuga ehk glossofoobiaga aastaid kimpus olnud Anti Veeranna rääkis Ringvaates, kuidas ta sellest improteatri abil üle sai. \"Üks võimalus selleks on improteatriga tegelemine,\" ütles Veeranna. Tema sõnul on improteater suuresti seotud nalja tegemisega laval. \"Sa hakkad õppima seda turvalises ruumis, kus on koos umbes seitse kuni kümme inimest ja te kõik teete sama asja,\" lausus Veeranna ja tõi Ringvaates ka konkreetse näite, mida improteatris tehakse, et esinemishirmu alandada",
-        "link":"https://menu.err.ee/1608602950/esinemishirmuga-kimpus-olnud-anti-veeranna-sai-sellest-improteatriga-ule"
+        "title": "Esinemishirmuga kimpus olnud Anti Veeranna sai sellest improteatriga üle",
+        "date": "2022-05-19",
+        "image": "2022-ringvaade.jpg",
+        "publisher": "ERR",
+        "description": "Esinemishirmuga ehk glossofoobiaga aastaid kimpus olnud Anti Veeranna rääkis Ringvaates, kuidas ta sellest improteatri abil üle sai. \"Üks võimalus selleks on improteatriga tegelemine,\" ütles Veeranna. Tema sõnul on improteater suuresti seotud nalja tegemisega laval. \"Sa hakkad õppima seda turvalises ruumis, kus on koos umbes seitse kuni kümme inimest ja te kõik teete sama asja,\" lausus Veeranna ja tõi Ringvaates ka konkreetse näite, mida improteatris tehakse, et esinemishirmu alandada",
+        "link": "https://menu.err.ee/1608602950/esinemishirmuga-kimpus-olnud-anti-veeranna-sai-sellest-improteatriga-ule"
       },
       {
-        "title":"Lõuna-Eestis algab vaimset tervist toetav improvisatsioonituur",
-        "date":"2022-03-31",
-        "description":"«Vaimse tervise improetendusel loome koos publikuga turvalise õhkkonna ning naudime huumori abil stressi vähendamist, heaolu suurendamist ning seeläbi oma vaimse ja füüsilise tervise parandamist,» ütles «Peaasi ajab naerma!» projektijuht Minna Sild.",
-        "link":"https://tervis.postimees.ee/7489850/louna-eestis-algab-vaimset-tervist-toetav-improvisatsioonituur",
-        "image":"2022-postimees-vti.jpeg",
-        "publisher":"Postimees"
+        "title": "Lõuna-Eestis algab vaimset tervist toetav improvisatsioonituur",
+        "date": "2022-03-31",
+        "description": "«Vaimse tervise improetendusel loome koos publikuga turvalise õhkkonna ning naudime huumori abil stressi vähendamist, heaolu suurendamist ning seeläbi oma vaimse ja füüsilise tervise parandamist,» ütles «Peaasi ajab naerma!» projektijuht Minna Sild.",
+        "link": "https://tervis.postimees.ee/7489850/louna-eestis-algab-vaimset-tervist-toetav-improvisatsioonituur",
+        "image": "2022-postimees-vti.jpeg",
+        "publisher": "Postimees"
       }
     ],
     "2020": [
@@ -106,6 +106,14 @@
         "date": "2018-09-03",
         "image": "2018-poulpe.jpg",
         "description": "Etendusega “(G)oldies” (tõlk. “Muld või kuld”) Kinomaja lavale astuva Poulpe Productioni lähtekohaks on intervjuud vanema generatsiooni esindajatega, mille läbi nad nende elu mõista püüavad.\n"
+      },
+      {
+        "link": "https://kultuur.postimees.ee/6139486/eestis-avati-esimene-susteemne-improteatriope",
+        "title": "Eestis avati esimene süsteemne improteatriõpe",
+        "publisher": "Postimees",
+        "date": "2018-08-23",
+        "description": "Oktoobrikuust alustab improkomöödiateater Ruutu10 uue ja meeleoluka improõppega, mis on esimene süsteemne improõpe Eestis.",
+        "image": "2018-postimees-improope.jpeg"
       }
     ],
     "2017": [
@@ -141,26 +149,58 @@
         "publisher": "Sirp",
         "date": "2016-10-14",
         "description": "Festivali „Tilt\" peakorraldaja Rahel Otsa räägib intervjuus festivalist, improteatri tasemest Eestis ning selgitab, mis teeb improteatri eriliseks.\n"
+      },
+      {
+        "date": "2016-10-07",
+        "title": "Piret Krumm võtab väljakutse vastu",
+        "link": "https://kultuur.postimees.ee/3864527/piret-krumm-votab-valjakutse-vastu",
+        "publisher": "Postimees",
+        "image": "2016-postimees-krumm.jpeg",
+        "description": "Piret Krumm on näitleja, kes on eelmisel hooajal säranud nii laulusaates «Su nägu kõlab tuttavalt», kui ka astunud koos Katariina Tammega lavale naiste stand-upi etendustega. Oma energia, karisma ja koomiku andega on ta hetkel üks huvitavamaid noori naisnäitlejaid. Koos Improteater IMPEERIUMiga paneb Krumm oma anded taas proovile, luues humoorikaid tegelaskujusid ja situatsioone publiku kaasabil alles laval."
+      },
+      {
+        "title": "Improkomöödia «Duubel» kompab hea tava piire",
+        "date": "2016-05-10",
+        "publisher": "Postimees",
+        "link": "https://arvamus.postimees.ee/3688431/improkomoodia-duubel-kompab-hea-tava-piire",
+        "image": "2016-postimees-duubel.jpg",
+        "description": "Sel neljapäeval kannab Postimees üle improviseeritud komöödialavastuse «Duubel», kus tullakse toime ootamatustega ja räägitakse elust enesest. Lavastluslikku saadet juhivad Toivo Värbu ning Rauno Meronen, kelle käe all kulgevas vestluses kutsutakse lavale külaline publikust, improviseeritakse pööraseid olukordi ning sünnivad kohapealsed räpihitid."
+      },
+      {
+        "title": "Saara Kadak jätkab üllatamist",
+        "date": "2016-01-08",
+        "link": "https://elu24.postimees.ee/3460965/saara-kadak-jatkab-ullatamist",
+        "image": "2016-postimees-kadak.jpeg",
+        "description": "Improteater IMPEERIUM on esitanud väljakutse Saara Kadakule, et anda temaga koos kaks etendust improteatri vormis. Improteater tähendab näitlejale lavale minemist ilma ette kirjutatud teksti ja tegevusliinideta. Kõik vajalik küsitakse publikult ja vahetult saadud inspiratsioonist hakkavad sündima humoorikad sketšid ja värvikad tegelased.",
+        "publisher": "Postimees"
       }
     ],
-      "2015": [
-        {
-          "link": "http://kultuur.postimees.ee/3346931/algab-improteatrite-festival-tilt",
-          "title": "Algab improteatrite festival «Tilt»",
-          "publisher": "Postimees",
-          "date":"2015-10-01",
-          "image":"2015-tilt-postimees.jpeg",
-          "description":"«Tilt» toimub sel aastal juba kolmandat korda. Varasematel aastatel on festivalil osalenud esinejad muuhulgas ka Lätist, Hollandist, Norrast, Itaaliast, Austraaliast. Sel aastal toimuv festival valmib kolme improtrupi, Eesti Improteater, improteater Kogu Moos ja Improgrupp Jaa! koostöös."
-        },
-        {
-          "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20151002.2.25.1",
-          "title": "Värsked vaatenurgad improteatrite festivalil",
-          "date":"2015-10-02",
-          "image":"2015-tilt-aripaev.jpg",
-          "publisher": "Äripäev",
-          "description":"Tallinnas on täna ja homme võimalik osa saada parimatest improvisatsioonilise teatri etendustest Eestist ja välismaalt. Käimas on kolmas improteatrite festival TILT."
-        }
-      ],
+    "2015": [
+      {
+        "link": "http://kultuur.postimees.ee/3346931/algab-improteatrite-festival-tilt",
+        "title": "Algab improteatrite festival «Tilt»",
+        "publisher": "Postimees",
+        "date": "2015-10-01",
+        "image": "2015-tilt-postimees.jpeg",
+        "description": "«Tilt» toimub sel aastal juba kolmandat korda. Varasematel aastatel on festivalil osalenud esinejad muuhulgas ka Lätist, Hollandist, Norrast, Itaaliast, Austraaliast. Sel aastal toimuv festival valmib kolme improtrupi, Eesti Improteater, improteater Kogu Moos ja Improgrupp Jaa! koostöös."
+      },
+      {
+        "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20151002.2.25.1",
+        "title": "Värsked vaatenurgad improteatrite festivalil",
+        "date": "2015-10-02",
+        "image": "2015-tilt-aripaev.jpg",
+        "publisher": "Äripäev",
+        "description": "Tallinnas on täna ja homme võimalik osa saada parimatest improvisatsioonilise teatri etendustest Eestist ja välismaalt. Käimas on kolmas improteatrite festival TILT."
+      },
+      {
+        "date": "2015-09-22",
+        "publisher": "Postimees",
+        "title": "Improt krokodillijahist Vabadussõjani",
+        "description": "Mis on improteater? Lühidalt on see teater ilma käsikirjata. Laseme stseenidel sündida siinsamas ja praegu, publiku silme all ja vaid iseendi loomevõimele lootes. Publiku ülesandeks saab artiste inspireerida ja määrata, kellest või kus või millise pealkirjaga  stseene ning näitemängu  näha tahavad. Loomulikult vajab selline teatritegemise viis eriettevalmistust, sest näitlejad võtavad nüüd ju ka näitekirjaniku ja lavastaja vastutuse.",
+        "link": "https://kultuur.postimees.ee/3336693/improt-krokodillijahist-vabadussojani",
+        "image": "2015-tilt-postimees.jpeg"
+      }
+    ],
     "2014": [
       {
         "title": "Teater, kus ei kasutata käsikirja",
@@ -171,6 +211,14 @@
         "image": "2014-kuulutaja.jpg"
       },
       {
+        "title": "Improteater paiskab armastatud Eesti näitlejad tundmatusse",
+        "link": "https://kultuur.postimees.ee/2985787/improteater-paiskab-armastatud-eesti-naitlejad-tundmatusse",
+        "date": "2014-11-10",
+        "publisher": "Postimees",
+        "image": "2014-impeerium-tundmatusse.jpeg",
+        "description": "Improteater Impeerium mängib sel hooajal novembrist maikuuni etendusi koos tuntud Eesti näitlejatega. Igal kuul osaleb improviseeritud etendustes uus külalisnäitleja ning novembris on laval näitleja Liina Tennosaar."
+      },
+      {
         "title": "Improteater IMPEERIUM vastab Improgrupp Jaa! esitatud jää-ämbri väljakutsele heategevusliku etendusega",
         "description": "Improteater Impeerium võtab vastu Improgrupp Jaa! esitatud jää-ämbri väljakutse, kuid vee lendamise asemel toimub 24. oktoobril kell 19.00 Tallinna Kammerteatris lennukas improetendus, kus teiste hulgas astub esmakordselt lavale ka Impeeriumi näitleja Tarvo Krall. Etenduse tulud annetatakse heategevusele.",
         "date": "2014-10-21",
@@ -178,31 +226,69 @@
         "link": "https://www.muurileht.ee/improteater-impeerium-jaa-ambri-valjakutse/",
         "image": "2014-muurileht.jpg"
       },
-          {
-            "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20141107.2.25.1&e=-------ru-10--1--txt-txTA-%2522dirigendid%2522-ARTICLE----dirigendid----#",
-            "title": "Ootamatute pööretega teater",
-            "publisher": "Äripäev",
-            "image":"2014-tilt-aripaev.jpg",
-            "description":"Kui looduses on värviliste puulehtede aeg juba läbi saamas, leiab värvikirevust ja energiat improteatrite festivalil T1LT, mis praegu Tallinna klubis Sinilind käimas on.",
-            "date":"2014-11-07"
-          },
-          {
-            "link": "http://tallinncity.postimees.ee/2981841/improteatrid-kogunesid-tallinna-festivali-pidama",
-            "title": "Improteatrid kogunesid Tallinna festivali pidama",
-            "publisher": "Postimees",
-            "image":"2014-tilt-pilet.jpg",
-            "description":"«Meil on hea meel, et festival on kasvanud juba nii laiahaardeliseks, et sellest võtavad osa teiste hulgas esinejad USA-st ja üks töötubade tegija Austraaliast. Adam & Emily on fantastiline improduo New Yorgist, kes on publikut naerutanud juba aastaid. Rama Nicholase näol on aga tegemist hinnatud koolitajaga Melbourne’ist, kes saabub meie juurde otse kolmeteistkümnendalt Würzburgi rahvusvaheliselt improfestivalilt.» tutvustas festivali peakorraldaja Rahel Otsa.",
-            "date":"2014-11-06"
-          }
+      {
+        "link": "http://dea.digar.ee/cgi-bin/dea?a=d&d=aripaev20141107.2.25.1&e=-------ru-10--1--txt-txTA-%2522dirigendid%2522-ARTICLE----dirigendid----#",
+        "title": "Ootamatute pööretega teater",
+        "publisher": "Äripäev",
+        "image": "2014-tilt-aripaev.jpg",
+        "description": "Kui looduses on värviliste puulehtede aeg juba läbi saamas, leiab värvikirevust ja energiat improteatrite festivalil T1LT, mis praegu Tallinna klubis Sinilind käimas on.",
+        "date": "2014-11-07"
+      },
+      {
+        "link": "http://tallinncity.postimees.ee/2981841/improteatrid-kogunesid-tallinna-festivali-pidama",
+        "title": "Improteatrid kogunesid Tallinna festivali pidama",
+        "publisher": "Postimees",
+        "image": "2014-tilt-pilet.jpg",
+        "description": "«Meil on hea meel, et festival on kasvanud juba nii laiahaardeliseks, et sellest võtavad osa teiste hulgas esinejad USA-st ja üks töötubade tegija Austraaliast. Adam & Emily on fantastiline improduo New Yorgist, kes on publikut naerutanud juba aastaid. Rama Nicholase näol on aga tegemist hinnatud koolitajaga Melbourne’ist, kes saabub meie juurde otse kolmeteistkümnendalt Würzburgi rahvusvaheliselt improfestivalilt.» tutvustas festivali peakorraldaja Rahel Otsa.",
+        "date": "2014-11-06"
+      },
+      {
+        "title": "Tallinn Comedy Festivali juhatab sisse tudengi stand-up ja seninägematu improteatri etendus",
+        "link": "https://elu24.postimees.ee/2779388/tallinn-comedy-festivali-juhatab-sisse-tudengi-stand-up-ja-seninagematu-improteatri-etendus",
+        "date": "2014-04-30",
+        "publisher": "Postimees",
+        "image": "2014-jaa-comedy.jpeg",
+        "description": "7. 8. ja 9. mail toimuv Tallinn Comedy Festival on üks ohtlikult naljakas sündmus, kus 3 päeva jooksul näed tippkoomikuid ning veel avastamata talente Eestist ja mujalt maailmast. Eesti tugevaimad improrühmitused ühendavad jõud ning annavad seninägematu tunnise etenduse, mida on võimalik nautida vaid Tallinn Comedy Festivalil."
+      }
     ],
-      "2013": [
-        {
-          "link": "https://menu.err.ee/269693/naitlejad-tegid-ringvaates-improteatrit",
-          "title": "Näitlejad tegid Ringvaates improteatrit",
-          "publisher": "ERR",
-          "date":"2013-10-18",
-          "image":"2013-ringvaade.webp",
-          "description":"Eesti improteatri näitlejad Erki Aule ja Rauno Kaibiainen näitasid Ringvaate otse-eetris, mida nende etendustel näha saab. Üritusega soovitaksegi improteatrite tegevust laiemalt tutvustada ning festivalil astuvad üles kõik kodumaal tegutsevad improteatrid - Eesti Improteater, Improkraatia, Improgrupp Jaa!. Samuti on külas teatrid Soomest, Lätist, Norrast ja Inglismaalt."
-        }
-      ]
+    "2013": [
+      {
+        "link": "https://menu.err.ee/269693/naitlejad-tegid-ringvaates-improteatrit",
+        "title": "Näitlejad tegid Ringvaates improteatrit",
+        "publisher": "ERR",
+        "date": "2013-10-18",
+        "image": "2013-ringvaade.webp",
+        "description": "Eesti improteatri näitlejad Erki Aule ja Rauno Kaibiainen näitasid Ringvaate otse-eetris, mida nende etendustel näha saab. Üritusega soovitaksegi improteatrite tegevust laiemalt tutvustada ning festivalil astuvad üles kõik kodumaal tegutsevad improteatrid - Eesti Improteater, Improkraatia, Improgrupp Jaa!. Samuti on külas teatrid Soomest, Lätist, Norrast ja Inglismaalt."
+      }
+    ],
+    "2011": [
+      {
+        "title": "Improteater aitab leida enesekindlust",
+        "date": "2011-01-05",
+        "link": "https://tartu.postimees.ee/367109/improteater-aitab-leida-enesekindlust",
+        "publisher": "Postimees",
+        "description": "Lille Majas improviseerisid huvilised Viljandi kultuuriakadeemia seitsmenda lennu näitlejate Mairi Jõgi ja Kati Ongi eestvedamisel olukordi, millesse nad võivad oma elus sattuda.",
+        "image": "2011-lille-maja.jpeg"
+      }
+    ],
+    "2010": [
+      {
+        "link": "https://elu24.postimees.ee/255961/improteater-on-publiku-meelevallas",
+        "title": "Improteater on publiku meelevallas",
+        "date": "2010-04-28",
+        "image": "2010-postimees.jpeg",
+        "publisher": "Postimees",
+        "description": "Improteatri juhi Rednar Annuse teatel oli teatri kokkukutsumise põhjuseks fakt, et Eestis ei olnud seni improvisatsiooniteatrit. \"Pärast magistriõpinguid Helsingis ja mujal maailmas teatrit näinuna tundus ebaõiglane kodupublik sellisest vahvast meelelahutusest ilma jätta. Seepärast saigi sügisel punt kokku kutsutud ja peale hakatud,\" selgitas Annus."
+      }
+    ],
+    "2009": [
+      {
+        "link": "https://kultuur.postimees.ee/177895/esimene-improteater-paneb-kassi-katusele",
+        "date": "2009-10-20",
+        "publisher": "Postimees",
+        "image": "2009-postimees-kollane.jpeg",
+        "title": "Esimene improteater paneb kassi katusele",
+        "description": "Järgmistel nädalatel annab Tallinnas ja Tartus oma esimesed etendused «Katusel kollane kass» täiesti uus teater, Eesti esimene improteater."
+      }
+    ]
   }
