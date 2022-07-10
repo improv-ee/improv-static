@@ -10,7 +10,7 @@
             <i class="bi bi-clock"></i> {{ date }} - <a :href="link" target="_blank">{{ publisher }}</a></small></p>
       </div>
       <div class="timeline-body">
-        <img class="img-fluid mb-2" :src="imageUrl" />
+        <img class="img-fluid mb-2" :src="imageUrl" v-if="image" />
         <slot name="body" />&nbsp;<a :href="link" target="_blank" class="stretched-link">loe edasi <i
             class="bi bi-chevron-double-right"></i></a>
       </div>
