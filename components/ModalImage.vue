@@ -19,6 +19,8 @@
 <script>
 import { defineComponent } from '@vue/composition-api'
 
+// https://github.com/vitejs/vite/issues/1265#issuecomment-799669670
+const images = import.meta.globEager("../assets/img/*.jpg");
 export default defineComponent({
     props: {
         image: { type: String, required: true },
@@ -27,7 +29,7 @@ export default defineComponent({
     },
     computed: {
     imgUrl() {
-        return new URL(`../assets/img/${this.image}`, import.meta.url);
+      return images[`../assets/img/${this.image}`].default
     }
     }
 })
