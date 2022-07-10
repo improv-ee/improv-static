@@ -11,4 +11,4 @@ npx nuxi generate
 mv .output output
 
 echo "Finished building site, output is at output/public"
-ls -la output/public
+ls -la .
