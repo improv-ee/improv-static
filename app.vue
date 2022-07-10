@@ -38,7 +38,7 @@
 
     </main>
     <footer class="pt-5 my-5 text-muted text-center border-top">
-      improv.ee &copy; 2022 | {{ contactEmail }} | <a href="https://github.com/improv-ee/improv-static">GitHub</a> 
+      improv.ee &copy; 2022 | kirjuta meile: {{ contactEmail }} | <a href="https://github.com/improv-ee/improv-static">GitHub</a> 
     </footer>
   </div>
 
@@ -63,7 +63,10 @@ export default {
   },
   head() {
     return {
-      title: 'improv.ee',
+      htmlAttrs: {
+      lang: 'ee'
+    },
+      title: 'Improviseeritud teater Eestis - tegijad, tellimine, ajalugu ja muu seonduv',
       meta: [
         { name: 'description', content: 'improv.ee koondab infot Eestis tegutsevate improtruppid kohta' },
         { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus' }
