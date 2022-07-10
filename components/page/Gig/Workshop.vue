@@ -11,7 +11,7 @@
         </p>
         <hr />
 
-        <GigAd image="ruutu10-koolitus.jpg" name="Ruutu10"
+        <GigAd image="/img/ruutu10-koolitus.jpg" name="Ruutu10"
          link="https://www.ruutu10.ee/tellimeid.html">
             <template #description>
                 Ruutu10 pakub lõbusat improtöötuba, mis ei vaja eelnevat kokkupuudet näitlemisega. Sõprade ja
@@ -24,7 +24,7 @@
             </template>
         </GigAd>
 
-        <GigAd image="impeerium-tellimus.jpg" name="Improteater IMPEERIUM"
+        <GigAd image="/img/impeerium-tellimus.jpg" name="Improteater IMPEERIUM"
         link="https://improimpeerium.ee/tellimused/">
             <template #description>
                 <p>Meie näitlejad on professionaalsed ja kogenud koolitajad.

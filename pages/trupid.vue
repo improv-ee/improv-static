@@ -2,7 +2,7 @@
 
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
-        <OrganizationCard name="Ruutu10" image="ruutu10.jpg" link="https://ruutu10.ee">
+        <OrganizationCard name="Ruutu10" image="/img/ruutu10.jpg" link="https://ruutu10.ee">
             <template #description>
                 <p>Pidulikkus on tore ja tervitatav, aga veel rohkem meeldib meile vaba ja lõbus õhkkond.</p>
                 <p>Kujuta ette, et sa istud koos oma parimate sõpradega. Iga uus mõte, mis välja öeldakse on naljakam
@@ -21,7 +21,7 @@
             </template>
         </OrganizationCard>
 
-        <OrganizationCard name="Improteater IMPEERIUM" image="impeerium.jpg" link="https://improimpeerium.ee/">
+        <OrganizationCard name="Improteater IMPEERIUM" image="/img/impeerium.jpg" link="https://improimpeerium.ee/">
             <template #description>
                 <p>Improteater IMPEERIUM kasvas välja 2014. aastal esimesest professionaalsest improtrupist Eestis.
                     Liikmed on kutselised näitlejad, kes lisaks IMPEERIUMile kuuluvad teiste Eesti teatrite
@@ -38,7 +38,7 @@
             </template>
         </OrganizationCard>
 
-        <OrganizationCard name="Ehatäht" image="eha.jpg" link="https://www.facebook.com/ehat2ht/">
+        <OrganizationCard name="Ehatäht" image="/img/eha.jpg" link="https://www.facebook.com/ehat2ht/">
             <template #description>
                 <p>Improtrupp Ehatäht sai tuule tiibadesse 2016. aasta oktoobris Von Glehni
                     Teatri improteatri kursusel. Trupi sünnile aitas kaasa kursuse juhendaja
@@ -54,7 +54,7 @@
             </template>
         </OrganizationCard>
 
-        <OrganizationCard name="Eesti Improteater" image="improteater.jpg" link="http://www.improteater.ee/">
+        <OrganizationCard name="Eesti Improteater" image="/img/improteater.jpg" link="http://www.improteater.ee/">
             <template #description>
                 <p>2009. aastal haaras improteatri õppimise võimalusest kinni hulk noori TÜ Viljandi Kultuuriakadeemia
                     lõpetajaid ja nendega koos panimegi kassi katusele: 2009. aasta 29. oktoobril läksime No99 Teatris
@@ -64,7 +64,7 @@
                     naljadega… tänaseks oleme seda teinud juba üle kahesaja korra. </p>
             </template>
         </OrganizationCard>
-        <OrganizationCard name="Kahe Vahel" image="kahe-vahel.jpg" link="https://ruutu10.ee/">
+        <OrganizationCard name="Kahe Vahel" image="/img/kahe-vahel.jpg" link="https://ruutu10.ee/">
             <template #description>
                 <p>Nad on kaks sõpra, Märt ja Kristjan, kelle koostöö on kestnud juba mitu hooaega. Kahekesi laval
                     hakkama saamine on väljakutse, mille nad alati rõõmuga vastu võtavad ja millega meisterlikult toime

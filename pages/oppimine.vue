@@ -6,7 +6,7 @@
         <p>Alustada saab teatrihariduseta ning igas vanuses - vaja on vaid avatud meelt ning veidi julgust.
         </p>
 
-        <LearnCourse image="ruutu10-kool.jpeg" cta="Ruutu10 - sissejuhatus improsse"
+        <LearnCourse image="/img/ruutu10-kool.jpeg" cta="Ruutu10 - sissejuhatus improsse"
             link="https://ruutu10.ee/tootoad/">
             <template #description>
                 <p>Alusta naeruküllast improteekonda, et vabastada loominguline potentsiaal ning ületada hirm esinemise

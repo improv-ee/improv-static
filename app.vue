@@ -66,7 +66,7 @@ export default {
         { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/assets/img/favicon.png' }
+        { rel: 'icon', type: 'image/png', href: '/img/favicon.png' }
       ],
       script: [
         {

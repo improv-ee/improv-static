@@ -32,7 +32,7 @@ export default defineComponent({
       return this.inverted ? 'timeline-inverted' : '';
     },
     imageUrl() {
-      return new URL(`../assets/img/media/${this.image}`, import.meta.url).href
+      return `/img/media/${this.image}`
     }
     
   }

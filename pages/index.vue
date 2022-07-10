@@ -33,24 +33,24 @@
         <hr class="col-12 col-md-12 mb-5">
         <div class="row align-items-center">
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-improgeddon" image="improgeddon.jpg" title="Improgeddon" />
+                <ModalImage id="img-improgeddon" image="/img/improgeddon.jpg" title="Improgeddon" />
             </div>
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-jaa" image="jaa.jpg" title="Jaa Improteater" />
+                <ModalImage id="img-jaa" image="/img/jaa.jpg" title="Jaa Improteater" />
             </div>
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-impeerium" image="impeerium.jpg" title="Improteater IMPEERIUM" />
+                <ModalImage id="img-impeerium" image="/img/impeerium.jpg" title="Improteater IMPEERIUM" />
             </div>
 
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-improteater" image="improteater.jpg" title="Eesti Improteater" />
+                <ModalImage id="img-improteater" image="/img/improteater.jpg" title="Eesti Improteater" />
 
             </div>
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-ruutu10" image="ruutu10.jpg" title="Ruutu10" />
+                <ModalImage id="img-ruutu10" image="/img/ruutu10.jpg" title="Ruutu10" />
             </div>
             <div class="col-sm-6 col-md-4 col-lg-6">
-                <ModalImage id="img-eha" image="eha.jpg" title="Ehatäht" />
+                <ModalImage id="img-eha" image="/img/eha.jpg" title="Ehatäht" />
             </div>
         </div>
 
