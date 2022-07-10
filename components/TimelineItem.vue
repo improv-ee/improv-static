@@ -19,7 +19,6 @@
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'
-
 export default defineComponent({
   props: {
     inverted: { type: Boolean, default: false },
@@ -33,7 +32,7 @@ export default defineComponent({
       return this.inverted ? 'timeline-inverted' : '';
     },
     imageUrl() {
-      return `../assets/img/media/${this.image}`;
+      return new URL(`../assets/img/media/${this.image}`, import.meta.url).href
     }
     
   }
