@@ -4,7 +4,7 @@
       <header
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-5 border-bottom">
         <NuxtLink to="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          improv.ee
+          <img src="/img/logo.png" alt="logo" class="img-fluid col-4 offset-4 col-sm-6 offset-sm-3 col-lg-8 offset-lg-2" />
         </NuxtLink>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
