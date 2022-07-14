@@ -1,6 +1,14 @@
   {
     "2022": [
       {
+        "title":"14.07 Algorütm: Kuidas impro aitas arendajal esinemishirmust üle saada",
+        "link":"https://digipro.geenius.ee/raadiosaade/algorytm/14-07-algorutm-kuidas-impro-aitas-arendajal-esinemishirmust-ule-saada/",
+        "publisher":"Geenius",
+        "description":"Tänase saate külaline on Anti Veeranna, kes muidu töötab Starshipis, kuid tänases saates räägib ta oma harrastusest, milleks on improteater. Lugu, kuidas Anti improni jõudis, on osadele meie kuulajatele kindlasti tuttav: tal oli suur hirm avaliku esinemise ees ja kui ta sellele lahendusi hakkas otsima, jäi otsingumootoris esimesena ette just impro.",
+        "image":"2022-algorutm.jpeg",
+        "date":"2022-07-14"
+      },
+      {
         "title": "Esinemishirmuga kimpus olnud Anti Veeranna sai sellest improteatriga üle",
         "date": "2022-05-19",
         "image": "2022-ringvaade.jpg",
