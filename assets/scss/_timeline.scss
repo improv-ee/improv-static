@@ -104,8 +104,11 @@
                 height: 100px;
                 margin-left: -50px;
                 line-height: 100px;
-                background-color: $yellow;
+                background-color: $accent-color;
 
+                & > a {
+                    color: $white !important;
+                }
             }
         }
 
