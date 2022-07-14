@@ -6,7 +6,8 @@
         <NuxtLink to="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" title="improv.ee">
           <picture>
              <source media="(min-width:992px)" srcset="~/assets/img/logo.png" />
-          <img src="~/assets/img/logo-notext.png" alt="improv.ee logo" class="img-fluid col-4 offset-4 col-sm-4 offset-sm-4 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2" />
+             <source media="(min-width:767px)" srcset="~/assets/img/logo-notext.png" />
+          <img src="~/assets/img/logo-800px-notext.png" alt="improv.ee logo" class="img-fluid col-4 offset-4 col-sm-4 offset-sm-4 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2" />
         </picture>
         </NuxtLink>
 
