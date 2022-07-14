@@ -2,9 +2,12 @@
   <div class="col-lg-8 mx-auto p-3 py-md-5">
     <div class="container">
       <header
-        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-5 border-bottom">
-        <NuxtLink to="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <img src="/img/logo.png" alt="logo" class="img-fluid col-4 offset-4 col-sm-6 offset-sm-3 col-lg-8 offset-lg-2" />
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-center py-3 mb-5 border-bottom">
+        <NuxtLink to="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none" title="improv.ee">
+          <picture>
+             <source media="(min-width:992px)" srcset="~/assets/img/logo.png" />
+          <img src="~/assets/img/logo-notext.png" alt="improv.ee logo" class="img-fluid col-4 offset-4 col-sm-4 offset-sm-4 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2" />
+        </picture>
         </NuxtLink>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -47,6 +50,12 @@
 
 </template>
 <script>
+import appleTouchIcon from '~/assets/img/apple-touch-icon.png';
+import favicon512 from '~/assets/img/android-chrome-512x512.png';
+import favicon192 from '~/assets/img/android-chrome-192x192.png';
+import favicon32 from '~/assets/img/favicon-32x32.png';
+import favicon16 from '~/assets/img/favicon-16x16.png';
+
 export default {
   computed: {
     contactEmail() {
@@ -72,7 +81,11 @@ export default {
         { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/img/favicon.png' }
+        { rel: 'icon', type: 'image/png', sizes:"16x16", href: favicon16 },
+        { rel: 'icon', type: 'image/png', sizes:"32x32", href: favicon32 },
+        { rel: 'icon', type: 'image/png', sizes:"192x192", href: favicon192 },
+        { rel: 'icon', type: 'image/png', sizes:"512x512", href: favicon512 },
+        { rel: 'apple-touch-icon', sizes: '180x180', href:appleTouchIcon}
       ],
       script: [
         {

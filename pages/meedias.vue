@@ -1,4 +1,5 @@
 <template>
+<div>
 <p>
     Impro-teemaline meediakajastus Eestis läbi aegade. Siin on välja toodud peamiselt suuremate
     meediaväljaannete kajastused.
@@ -16,6 +17,7 @@
         </template>
 
     </ul>
+    </div>
 </template>
 
 <script setup>
