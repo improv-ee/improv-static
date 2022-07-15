@@ -2,12 +2,12 @@
     <div>
         <p>
             Soovid improv.ee lehe haldajaga ühendust võtta? Kasuta allolevat vormi, või kirjuta
-            meile e-mailile <code>{{ contactEmail }}</code>.
+            meile e-mailile <code>support&#64;improv.ee</code>.
         </p>
 
         <p>N.B! - improv.ee kaudu ei saa tellida etendusi ega töötubasid - neid
             vahendavad teenusepakkujad ise. Vaata alamlehele
-            <NuxtLink to="/tellimine">Tellimine</NuxtLink>.
+            "<NuxtLink to="/tellimine">tellimine</NuxtLink>".
         </p>
 
 
@@ -32,20 +32,3 @@
         </form>
     </div>
 </template>
-<script>
-export default {
-    computed: {
-        contactEmail() {
-            return this.hex2a('737570706f727440696d70726f762e6565')
-        }
-    },
-    methods: {
-        hex2a: function (hex) {
-            var str = '';
-            for (var i = 0; i < hex.length; i += 2)
-                str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
-            return str;
-        }
-    },
-}
-</script>

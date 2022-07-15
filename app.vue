@@ -42,7 +42,7 @@
 
     </main>
     <footer class="pt-5 my-5 text-muted text-center border-top">
-      improv.ee &copy; 2022 | kirjuta meile: {{ contactEmail }} | <a href="https://github.com/improv-ee/improv-static">GitHub</a> 
+      improv.ee &copy; 2022 | kirjuta meile: support&#64;improv.ee | <a href="https://github.com/improv-ee/improv-static">GitHub</a> 
     </footer>
   </div>
 
@@ -58,19 +58,6 @@ import favicon32 from '~/assets/img/favicon-32x32.png';
 import favicon16 from '~/assets/img/favicon-16x16.png';
 
 export default {
-  computed: {
-    contactEmail() {
-      return this.hex2a('737570706f727440696d70726f762e6565')
-    }
-  },
-  methods: {
-    hex2a: function (hex) {
-      var str = '';
-      for (var i = 0; i < hex.length; i += 2)
-        str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
-      return str;
-    }
-  },
   head() {
     return {
       htmlAttrs: {
