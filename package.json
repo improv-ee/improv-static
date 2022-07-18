@@ -12,7 +12,7 @@
     "nuxt": "3.0.0-rc.4",
     "sass": "^1.48.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "bootstrap-icons": "^1.8.3",
+    "bootstrap-icons": "^1.9.1",
     "md5":"^2.3.0",
     "@cloudflare/pages-plugin-mailchannels":"^0.1.0"
   }
