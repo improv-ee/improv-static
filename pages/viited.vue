@@ -82,7 +82,10 @@
             <template #collapse-body>
                 <ul>
                     <li><a href="https://rahelotsa.ee/">Rahel Otsa</a></li>
+                    <li><a href="https://improkool.ee">Rahel Otsa Improkool</a></li>
+                    <li><a href="https://ruutu10.ee/tootoad/">Ruutu10</a></li>
                     <li><a href="https://www.bewise.ee/">Be Wise</a></li>
+                    <li><a href="https://vgt.ee/kursused/">VGT (improteatri kursused)</a></li>
                 </ul>
             </template>
         </AccordionItem>
