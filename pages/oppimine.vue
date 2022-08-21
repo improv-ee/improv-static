@@ -29,5 +29,13 @@
                     arenguks kui neile, kes soovivad tulevikus ka ise improetendusi andma hakata.</p>
             </template>
         </LearnCourse>
+        <LearnCourse image="/img/vgt-impro.jpeg" cta="Improkursused VGT-s" link="https://vgt.ee/kursused/">
+            <template #description>
+                <p>Von Glehni teater pakub valikus improkursuseid nii lastele kui täiskasvanutele, algajatele kui edasijõudnutele.
+                    Kursuseid juhendavad improkogemusega näitlejad truppidest Ehatäht, Improteater Impeerium ning Eesti Improteater.
+                </p>
+                
+            </template>
+        </LearnCourse>
     </div>
 </template>
