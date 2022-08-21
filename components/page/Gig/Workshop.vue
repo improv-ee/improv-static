@@ -38,8 +38,14 @@
                 </ul>
             </template>
         </GigAd>
-
-
-
+        <GigAd image="/img/elamuskirss.png" name="Elamuskirss" link="mailto:kairivilu@gmail.com?subject=%5BElamuskirss%5D%20%5Bimprov.ee%5D%20T%C3%B6%C3%B6toa%20p%C3%A4ring">
+            <template #description>
+                <p>Elamuskirss OÜ pakub mängulist improteatri töötuba noortele vanuses 10+ ja täiskasvanutele.
+                Töötuba sobib hästi klassidele ja töökollektiividele või erinevatele seltskondadele (max 20 inimest).
+                Juhendaja Kairi Vilu (Von Glehni Teatri näitleja, improtrupp Ehatäht improviseerija).</p>
+                
+                <p>Töötoa kestus 90 minutit. Huvi korral kiri kairivilu@gmail.com</p>
+            </template>
+        </GigAd>
     </div>
 </template>
