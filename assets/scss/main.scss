@@ -36,6 +36,13 @@ a {
     width: 100%;
 }
 
+.card-img-gig {
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+
+}
+
 .img-grid {
     object-fit: cover;
     object-position: 50% 50%;
@@ -44,6 +51,11 @@ a {
     margin-top:1em;
 }
 
+@include media-breakpoint-up(md) {
+    .card-img-gig {
+        max-height: 20em;
+    }
+}
 @include media-breakpoint-up(xl) {
     .img-header {
         max-height: 20em;

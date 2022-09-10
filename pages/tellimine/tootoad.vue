@@ -1,13 +1,22 @@
 <template>
     <div>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <NuxtLink to="/tellimine">Tellimine</NuxtLink>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Töötoad</li>
+            </ol>
+        </nav>
+
         <p class="lead">Improteatri töötuba arendab osalejate suhtlemis- ning esinemisoskust, ning teeb seda lõbusas ja
             loovas keskkonnas.</p>
 
-            <p class="small">Iga töötuba on erinev ning vastavalt osalejate vajadustele. Meelelahutuslikud töötoad sobivad hästi
+            <p>Iga töötuba on erinev ning vastavalt osalejate vajadustele. Meelelahutuslikud töötoad sobivad hästi
             üritustele, suhtlemisoskuse töötoad kollektiivile ning teatrile keskenduvad töötoad õpetavad
             improviseerimisoskusi.</p>
 
-            <p>Tellimustöötubasid pakuvad järgmised trupid - võrdle pakkumisi, ning võta valitud trupiga ühendust.
+            <p>Tellimustöötubasid pakuvad järgmised trupid - võrdle pakkumisi <i class="bi bi-caret-down"></i>, ning võta valitud trupiga ühendust.
         </p>
         <hr />
 
@@ -62,7 +71,7 @@
                  <source srcset="/img/gig/elamuskirss-sm.png" media="(min-width: 576px)">
             </template>
         </GigAd>
-        <GigAd image="/img/gig/bewise.jpg" name="BeWise" link="https://www.bewise.ee/">
+        <GigAd image="/img/gig/bewise.jpg" name="BeWise" link="https://www.bewise.ee/" :separators="false">
             <template #description>
                 <p>Rakendusimpro koolitused. Suhtluse, avaliku esinemise ja ​meeskonnatöö koolitused ettevõtetele.</p>
                 <p>BeWise koolitused annavad osalejatele võimaluse kogeda suhtluse põhitõdesid.
