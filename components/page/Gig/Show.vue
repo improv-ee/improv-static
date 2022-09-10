@@ -20,7 +20,7 @@
             </template>
         </GigAd>
 
-        <GigAd image="/img/impeerium-tellimus.jpg"
+        <GigAd image="/img/gig/impeerium.jpg"
         name="Improteater IMPEERIUM" link="https://improimpeerium.ee/tellimused/">
             <template #description>
                 <p>Kas otsid meelelahutajat/esinejat sünnipäevale, pulma, suvepäevadele, jõulupeole, aktusele või

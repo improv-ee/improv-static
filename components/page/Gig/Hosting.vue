@@ -7,7 +7,7 @@
         Õhtujuhtimist pakuvad järgmised tegijad - võrdle pakkumisi, ning võta tegijaga otse ühendust.</p>
         <hr />
 
-        <GigAd image="/img/impeerium-tellimus.jpg" name="Improteater IMPEERIUM"
+        <GigAd image="/img/gig/impeerium.jpg" name="Improteater IMPEERIUM"
         link="https://improimpeerium.ee/tellimused/">
             <template #description>
                 <p>Kogu sündmuse muretuks läbiviimiseks leiad imperaalide hulgast ka inimese, kes sujuvalt ja

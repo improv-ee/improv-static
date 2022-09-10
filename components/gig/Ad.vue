@@ -1,6 +1,9 @@
 <template>
 <div>
-    <img :src="image" class="img-header rounded mt-4 mb-2"/>
+    <picture>
+        <slot name="srcset"></slot>
+        <img :src="image" class="img-header rounded mt-4 mb-2"/>
+    </picture>
     <slot name="description"></slot>
     <a class="btn btn-primary col-8 offset-2 mb-5 mt-3" :href="link" target="_blank">
         {{ linkTextPrefix }} {{ name }}
