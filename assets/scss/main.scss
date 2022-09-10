@@ -37,7 +37,7 @@ a {
 }
 
 .card-img-gig {
-    height: 10em;
+    height: 15em;
     width: 100%;
     object-fit: cover;
 
@@ -53,9 +53,17 @@ a {
 
 @include media-breakpoint-up(md) {
     .card-img-gig {
-        max-height: 20em;
+        max-height: 17em;
     }
 }
+
+@include media-breakpoint-up(xl) {
+    .card-img-gig {
+        height: 22em;
+    }
+}
+
+
 @include media-breakpoint-up(xl) {
     .img-header {
         max-height: 20em;
