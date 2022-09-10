@@ -17,9 +17,9 @@ $accent-color: #c96500; // from logo
 }
 
 .img-header {
-    object-fit: cover;
-    object-position: 0 0;
-    height: 20em;
+    object-fit: contain;
+    object-position: 50% 50%;
+    min-height: 15em;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ a {
 .card-img-top {
     object-fit: cover;
     object-position: 50% 0;
-    height: 15em;
+    height: 10em;
     width: 100%;
 }
 
@@ -44,9 +44,26 @@ a {
     margin-top:1em;
 }
 
+@include media-breakpoint-up(md) {
+    .img-header {
+        //height: 15em;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .img-header {
+       // height: 18em;
+    }
+}
+@include media-breakpoint-up(xl) {
+    .img-header {
+      //  height: 25em;
+    }
+}
+
 @include media-breakpoint-up(xxl){
     .img-grid {
-        height: 15em;
+    //    height: 15em;
     }
 }
 

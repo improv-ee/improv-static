@@ -56,6 +56,8 @@
                 <p>Töötoa kestus 90 minutit. Huvi korral kiri kairivilu@gmail.com</p>
             </template>
             <template #srcset>
+                 <source srcset="/img/gig/elamuskirss-xl.png" media="(min-width: 1200px)">
+                 <source srcset="/img/gig/elamuskirss-lg.png" media="(min-width: 992px)">
                  <source srcset="/img/gig/elamuskirss-md.png" media="(min-width: 768px)">
                  <source srcset="/img/gig/elamuskirss-sm.png" media="(min-width: 576px)">
             </template>
