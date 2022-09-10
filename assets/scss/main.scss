@@ -44,27 +44,9 @@ a {
     margin-top:1em;
 }
 
-@include media-breakpoint-up(md) {
-    .img-header {
-        //height: 15em;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    .img-header {
-       // height: 18em;
-    }
-}
 @include media-breakpoint-up(xl) {
     .img-header {
-      //  height: 25em;
+        max-height: 20em;
     }
 }
-
-@include media-breakpoint-up(xxl){
-    .img-grid {
-    //    height: 15em;
-    }
-}
-
 

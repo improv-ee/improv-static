@@ -14,5 +14,9 @@
                     meeleolukalt köidab Su erilise päeva ühtseks tervikuks.</p>
 
             </template>
+            <template #srcset>
+                 <source srcset="/img/gig/impeerium-md.jpg" media="(min-width: 768px)">
+                 <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
+            </template>
         </GigAd>
 </div></template>

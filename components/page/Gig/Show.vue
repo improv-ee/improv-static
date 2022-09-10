@@ -10,13 +10,16 @@
 
         <p>Tellimusesinemisi pakuvad järgmised trupid - võrdle pakkumisi, ning võta valitud trupiga ühendust.</p>
 <hr />
-        <GigAd image="/img/ruutu10-tellimus.jpg" name="Ruutu10"
+        <GigAd image="/img/gig/ruutu10-tellimus.jpg" name="Ruutu10"
          link="https://www.ruutu10.ee/tellimeid.html">
             <template #description>
                 <p>Ruutu10 pakub humoorikat improteatri etendust, mis on ​personaalne. Teemad, mida puudutame on mõeldud
                     ainult sinu publikule. Pärast meie etteastet on sul tekkinud uued seltskonnasisesed naljad, mis
                     meenutavad sinu pidu pikalt.
                     Etendus on tavaliselt 30-45 minutit pikk ja 2-4 esinejaga.</p>
+            </template>
+            <template #srcset>
+                 <source srcset="/img/gig/ruutu10-tellimus-lg.jpg" media="(min-width: 992px)">
             </template>
         </GigAd>
 
@@ -31,6 +34,10 @@
                     tea, mis juhtuma hakkab, kõik on võimalik ning see on meelierutavalt vaimukas!</p>
 
                 <p>Meil on Sulle pakkuda selleks põnevaid võimalusi!</p>
+            </template>
+            <template #srcset>
+                 <source srcset="/img/gig/impeerium-md.jpg" media="(min-width: 768px)">
+                 <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
             </template>
         </GigAd>
 
