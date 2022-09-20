@@ -20,6 +20,7 @@
                     <li><a href="https://www.facebook.com/groups/eesti.improtajad">Eesti Improtajad (Facebook)</a></li>
                     <li><a href="#">Ruutu10 (Discord)</a></li>
                     <li><a href="https://www.facebook.com/groups/1311238489388244">Tallinn Improv Group (Facebook)</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100076304285341">Improring Improrong</a> (Facebook, London)</li>
                 </ul>
             </template>
         </AccordionItem>
