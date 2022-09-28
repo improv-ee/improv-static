@@ -81,3 +81,16 @@
     </div>
 
 </template>
+<script>
+
+    export default {
+        head() {
+            return {
+                meta: [
+                    { name: 'description', content: 'Eestis tegutsevate improtruppide register' },
+                    { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improteatrid eestis,improtrupid eestis,improtrupid,impro grupid,ruutu10,improteater impeerium,improimpeerium,ehatäht,eesti improteater,kahe vahel,kimproose' }
+                ],
+            }
+        }
+    }
+    </script>

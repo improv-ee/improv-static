@@ -63,7 +63,7 @@ export default {
       htmlAttrs: {
       lang: 'ee'
     },
-      title: 'Improviseeritud teater Eestis - tegijad, tellimine, ajalugu ja muu seonduv',
+      title: 'Improviseeritud teater Eestis - tegijad, tellimine, ajalugu, viited',
       meta: [
         { name: 'description', content: 'Info Eestis impromaastiku kohta - tegutsevad improtrupid, impro õppimine, impro tellimine üritustele või koolituseks, impro viited ja ajalugu.' },
         { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improvisatsioon,improetendus' }

@@ -54,3 +54,17 @@
 
     </div>
 </template>
+<script>
+
+    export default {
+        head() {
+            return {
+                title: 'Improviseeritud etendus sinu üritusele',
+                meta: [
+                    { name: 'description', content: 'Improviseeritud teatrietendus on suurepärane naerurikas ja energiat tõstev vahepala sinu üritusele.' },
+                    { name: 'keywords', content: 'improteater,impro,improv,etendus üritusele, ürituse vahepala, sündmuse sisustus, meelelahutus üritusel' }
+                ],
+            }
+        }
+    }
+    </script>

@@ -86,3 +86,17 @@
         </GigAd>
     </div>
 </template>
+<script>
+
+    export default {
+        head() {
+            return {
+                title: 'Improvisatsiooni töötuba sinu üritusele',
+                meta: [
+                    { name: 'description', content: 'Improteatri töötuba arendab osalejate suhtlemis- ning esinemisoskust, ning teeb seda lõbusas ja loovas keskkonnas.' },
+                    { name: 'keywords', content: 'improteater,impro,improv,töötuba,töötuba üritusele' }
+                ],
+            }
+        }
+    }
+    </script>

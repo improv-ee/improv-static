@@ -1,6 +1,6 @@
 <template>
     <div>
-    
+
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -10,22 +10,38 @@
             </ol>
         </nav>
 
-            <p class="lead">Improviseerijast õhtujuht paneb sinu ürituse oma muheda oleku ning huumorisoonega elama.</p>
-            <p>Võid
-                kindel olla, et ta suudab ootamatute arengutega hetkeliselt kohaneda, ning osalejatega kiirelt suhestuda.
-            Õhtujuhtimist pakuvad järgmised tegijad - võrdle pakkumisi <i class="bi bi-caret-down"></i>, ning võta tegijaga otse ühendust.</p>
-            <hr />
-    
-            <GigAd image="/img/gig/impeerium.jpg" name="Improteater IMPEERIUM"
-            link="https://improimpeerium.ee/tellimused/" :separators="false">
-                <template #description>
-                    <p>Kogu sündmuse muretuks läbiviimiseks leiad imperaalide hulgast ka inimese, kes sujuvalt ja
-                        meeleolukalt köidab Su erilise päeva ühtseks tervikuks.</p>
-    
-                </template>
-                <template #srcset>
-                     <source srcset="/img/gig/impeerium-md.jpg" media="(min-width: 768px)">
-                     <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
-                </template>
-            </GigAd>
-    </div></template>
+        <p class="lead">Improviseerijast õhtujuht paneb sinu ürituse oma muheda oleku ning huumorisoonega elama.</p>
+        <p>Võid
+            kindel olla, et ta suudab ootamatute arengutega hetkeliselt kohaneda, ning osalejatega kiirelt suhestuda.
+            Õhtujuhtimist pakuvad järgmised tegijad - võrdle pakkumisi <i class="bi bi-caret-down"></i>, ning võta
+            tegijaga otse ühendust.</p>
+        <hr />
+
+        <GigAd image="/img/gig/impeerium.jpg" name="Improteater IMPEERIUM" link="https://improimpeerium.ee/tellimused/"
+            :separators="false">
+            <template #description>
+                <p>Kogu sündmuse muretuks läbiviimiseks leiad imperaalide hulgast ka inimese, kes sujuvalt ja
+                    meeleolukalt köidab Su erilise päeva ühtseks tervikuks.</p>
+
+            </template>
+            <template #srcset>
+                <source srcset="/img/gig/impeerium-md.jpg" media="(min-width: 768px)">
+                <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
+            </template>
+        </GigAd>
+    </div>
+</template>
+<script>
+
+export default {
+    head() {
+        return {
+            title: 'Improviseerijast õhtujuht sinu üritusele',
+            meta: [
+                { name: 'description', content: 'Vajad üritusele õhtujuhti? Improviseerijast õhtujuht paneb sinu ürituse oma muheda oleku ning huumorisoonega elama.' },
+                { name: 'keywords', content: 'improteater,impro,improv,õhtujuht, õhtujuht üritusele, ürituse moderaator, peo juhtimine, peo korraldus' }
+            ],
+        }
+    }
+}
+</script>

@@ -57,7 +57,7 @@
             </div>
             <div class="col">
                 <div class="card text-bg-dark">
-                    <img src="/img/gig/hosting-header.jpg" class="card-img card-img-gig" alt="Impro etendus">
+                    <img src="/img/gig/hosting-header.jpg" class="card-img card-img-gig" alt="Improviseerijast õhtujuht">
                     <div class="card-img-overlay">
 
                         <div class="row align-items-center d-flex h-100">
