@@ -34,7 +34,7 @@
         </GigAd>
 
         <GigAd image="/img/gig/impeerium.jpg" name="Improteater IMPEERIUM" 
-        :separators="false" link="https://improimpeerium.ee/tellimused/">
+         link="https://improimpeerium.ee/tellimused/">
             <template #description>
                 <p>Kas otsid meelelahutajat/esinejat sünnipäevale, pulma, suvepäevadele, jõulupeole, aktusele või
                     ükskõik mis üritusele, kus soovid inimesi rõõmustada ja elevust tekitada?</p>
@@ -48,6 +48,15 @@
             <template #srcset>
                 <source srcset="/img/gig/impeerium-md.jpg" media="(min-width: 768px)">
                 <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
+            </template>
+        </GigAd>
+        <GigAd image="/img/gig/kimproose-etendus.jpg" name="kIMPROose" :separators="false" link="https://www.facebook.com/kimproose">
+            <template #description>
+                <p>Sinu ürituse muudab eriliseks ja kordamatuks kIMPROose lustakas improetendus.
+                    Kuna nii tegelaskujud kui ka kogu sisu valmib kohapeal Sinu publiku abiga,
+                    siis on iga kIMPROose etendus kui rätsepa eritellimus Sinu üritusele.
+                    Üks mis aga kindel - naerda saab!</p>
+<p>Etendus kestab tavaliselt 20-30 min ning kohal on 4-5 improviseerijat.</p>
             </template>
         </GigAd>
 

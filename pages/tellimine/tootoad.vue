@@ -71,7 +71,7 @@
                  <source srcset="/img/gig/elamuskirss-sm.png" media="(min-width: 576px)">
             </template>
         </GigAd>
-        <GigAd image="/img/gig/bewise.jpg" name="BeWise" link="https://www.bewise.ee/" :separators="false">
+        <GigAd image="/img/gig/bewise.jpg" name="BeWise" link="https://www.bewise.ee/">
             <template #description>
                 <p>Rakendusimpro koolitused. Suhtluse, avaliku esinemise ja ​meeskonnatöö koolitused ettevõtetele.</p>
                 <p>BeWise koolitused annavad osalejatele võimaluse kogeda suhtluse põhitõdesid.
@@ -82,6 +82,16 @@
             <template #srcset>
                  <source srcset="/img/gig/bewise-md.jpg" media="(min-width: 768px)">
                  <source srcset="/img/gig/bewise-sm.jpg" media="(min-width: 576px)">
+            </template>
+        </GigAd>
+        <GigAd image="/img/gig/kimproose-tootuba.jpg" name="kIMPROose" link="https://www.facebook.com/kimproose" :separators="false">
+            <template #description>
+                <p>Improteatriga tegelemiseks ei pea olema professionaal või kogenud näitleja.
+                    Oleme meiegi elav tõestus sellest. Meie juhendajate eesmärk on üks - kõigil peab lõbus olema.
+                    Töötuba on hea võimalus improteatri tegemist turvalises ja rõõmsameelses seltskonnas proovida.
+                    Aga ole ettevaatlik! Kes kord näpu improle andnud, sel raske enam kätt tagasi saada.</p>
+
+<p>Töötoa suuruseks on max 20 inimest ning seltskonda juhendavad 2-3 impronäitlejat.</p>
             </template>
         </GigAd>
     </div>

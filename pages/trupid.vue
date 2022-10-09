@@ -12,7 +12,7 @@
                     See on see klassikaline “sa oleksid pidanud seal olema” moment. </p>
 
                 <p>Me oleme Ruutu10 ja just sellise õhkkonna loomisele olemegi keskendunud. </p>
-            <p>Me oleme õppinud improkomöödiat Chicagos, Londonis, Barcelonas, Kopenhaagenis ja Tamperes oma
+                <p>Me oleme õppinud improkomöödiat Chicagos, Londonis, Barcelonas, Kopenhaagenis ja Tamperes oma
                     ala parimate juhendajate käe all ning nüüd anname neid teadmisi edasi. Me töötame selle nimel,
                     et tõsta kohalikku komöödiakvaliteeti. Meil on unistus, et ühel päeval on Eestis kool ja teater,
                     mis keskendub improle ja annab inimestele võimaluse lõõgastuda ning naerda kogu südamest.</p>
@@ -78,19 +78,29 @@
                     ja kaasahaaravad.</p>
             </template>
         </OrganizationCard>
+        <OrganizationCard name="kIMPROose" image="/img/kimproose.jpg" link="https://www.facebook.com/kimproose">
+            <template #description>
+                <p>Improtrupp kIMPROose on justkui värske sõõm naerugaasi. Aastaid koos käinud trupp toimib laval
+                    ühe meeskonnana ning eesmärk on kõigil sama - lõbus peab olema.
+                    Seda nii vaatajatel, kui ka trupiliikmeil endil.</p>
+
+                <p>kIMPROose etteasted on lustakad, muusikalised, krutskitega ning täis erinevaid põnevaid pöördeid.
+                    Armastame avastada laval uusi suhteid ja tegelasi ning vaadata, kuhu see kõik lõpuks kokku viib.</p>
+            </template>
+        </OrganizationCard>
     </div>
 
 </template>
 <script>
 
-    export default {
-        head() {
-            return {
-                meta: [
-                    { name: 'description', content: 'Eestis tegutsevate improtruppide register' },
-                    { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improteatrid eestis,improtrupid eestis,improtrupid,impro grupid,ruutu10,improteater impeerium,improimpeerium,ehatäht,eesti improteater,kahe vahel,kimproose' }
-                ],
-            }
+export default {
+    head() {
+        return {
+            meta: [
+                { name: 'description', content: 'Eestis tegutsevate improtruppide register' },
+                { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improteatrid eestis,improtrupid eestis,improtrupid,impro grupid,ruutu10,improteater impeerium,improimpeerium,ehatäht,eesti improteater,kahe vahel,kimproose' }
+            ],
         }
     }
-    </script>
+}
+</script>
