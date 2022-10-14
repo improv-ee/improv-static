@@ -21,7 +21,7 @@
         <hr />
 
         <GigAd image="/img/gig/ruutu10-koolitus.jpg" name="Ruutu10"
-         link="https://www.ruutu10.ee/tellimeid.html">
+         link="https://ruutu10.ee/improteatri-tootuba-meeskonnauritusel/">
             <template #description>
                 Ruutu10 pakub lõbusat improtöötuba, mis ei vaja eelnevat kokkupuudet näitlemisega. Sõprade ja
                 kolleegidega mänge tehes näed sa neid uue nurga alt. Kogemusest võime kinnitada, et see on hea võimalus

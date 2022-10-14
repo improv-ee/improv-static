@@ -21,7 +21,7 @@
         <p>Tellimusesinemisi pakuvad järgmised trupid - võrdle pakkumisi <i class="bi bi-caret-down"></i>, ning võta
             valitud trupiga ühendust.</p>
         <hr />
-        <GigAd image="/img/gig/ruutu10-tellimus.jpg" name="Ruutu10" link="https://www.ruutu10.ee/tellimeid.html">
+        <GigAd image="/img/gig/ruutu10-tellimus.jpg" name="Ruutu10" link="https://www.ruutu10.ee/tellimine">
             <template #description>
                 <p>Ruutu10 pakub humoorikat improteatri etendust, mis on ​personaalne. Teemad, mida puudutame on mõeldud
                     ainult sinu publikule. Pärast meie etteastet on sul tekkinud uued seltskonnasisesed naljad, mis
