@@ -1,4 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config'
+const path = require('path');
+
 export default defineNuxtConfig({
     "css": [
         "~/assets/scss/main.scss"
@@ -6,4 +8,9 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-simple-sitemap'
       ],
+      nitro: {
+        output: {
+          publicDir: path.join(__dirname, 'cf-pages')
+        }
+      },
 })
