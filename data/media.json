@@ -1,5 +1,55 @@
   {
+    "2023": [ 
+      {
+        "title":"ANNAME HOOGU - Improvisatsiooniline teatrivorm saab sügisel oma kodu",
+        "publisher":"GoodNews",
+        "description":"Selle aasta sügisel saab eesti teatrimaastik rikkamaks improteatrit pakkuva saali võrra – Improteater IMPEERIUM leidis Tallinnas Põhjala tehases oma kodu.",
+        "image":"2023/Improteater-IMPEERIUM-1.jpg",
+        "date":"2023-08-06",
+        "link":"https://eestielu.goodnews.ee/anname-hoogu-i-improvisatsiooniline-teatrivorm-saab-sugisel-oma-kodu/"
+      },
+      {
+      "title":"Improteater Impeerium otsib endale uut nime",
+      "publisher":"ERR",
+      "description":"Sel sügisel avab improteater Impeerium Tallinnas Põhjala tehases teatrisaali, kus lisaks enda etenduste mängimisele saavad esinemisvõimaluse ka teised teatrid ja artistid. Seoses värske teatrisaali avamisega otsib Impeerium endale uut nime avaliku nimekonkursi kaudu.",
+      "link": "https://menu.err.ee/1609037066/improteater-impeerium-otsib-endale-uut-nime",
+      "image":"2023/impeerium-err-teatrimaja.jpg",
+      "date":"2023-07-18"
+    },
+    {
+      "title":"Päris tribüün Improteater IMPEERIUMi uude teatrikeskusesse!",
+      "description":"Meie oleme Improteater IMPEERIUM. /../ Nüüd oleme jõudnud enda teatri arengus uude väga olulisse etappi - meil on lõpuks valmimas päris enda teatrisaal! Hetkel tegelemegi ehitusega, et juba sügisel see teie jaoks avada.",
+      "publisher":"Hooandja",
+      "date":"2023-07-10",
+      "link":"https://www.hooandja.ee/projekt/paris-tribuun-improteater-impeeriumi-uude-teatrikeskusesse",
+      "image":"2023/hooandja-impeerium.png"
+    },
+    {
+      "title":"Vaimsest tervisest läbi huumoriprisma",
+      "publisher":"Õpetajate Leht",
+      "date":"2023-04-14",
+      "description":"23. märtsil toimus vaimse tervise sarja „Teaduse ja kunsti mängud“ ettevõtmisena MUBA-s improteatri Ruutu 10 etendus, mis oli pühendatud õpilaste vaimse tervise teemale.",
+      "link":"https://opleht.ee/2023/04/vaimsest-tervisest-labi-huumoriprisma/",
+      "image":"2023/huumoriprisma.jpg"
+    },
+    {
+      "title":"OOTAMATUSE VÕLU Improteater Impeerium ja näitleja Inga Lunge naerutavad Nõmmel teatrisõpru",
+      "publisher":"Pealinn",
+      "link":"https://pealinn.ee/2023/03/16/improteater-impeerium-ja-naitleja-inga-lunge-naerutavad-nommel-teatrisopru/",
+      "description":"Improteater Impeerium ja näitleja Inga Lunge esinevad 20. märtsil kell 20.00 Nõmmel Hiiu pubis. Näha saab kohapeal sündivaid sketše, humoorikaid tegelasi, kaasahaaravaid stseene ja lauluhitte.",
+      "date":"2023-03-16",
+      "image":"2023/inga-impeerium.jpg"
+    }
+    ],
     "2022": [
+      {
+        "link":"https://www.ohtuleht.ee/elu/1073118/arvustus-improteatri-koomiliste-sketside-ohtu-ehk-lugu-sellest-kuidas-ott-sepp-mangis-mu-nukukest-ja-saagis-naise-pooleks",
+        "title":"ARVUSTUS | Improteatri koomiliste sketšide õhtu ehk Lugu sellest, kuidas Ott Sepp mängis mu nukukest ja saagis naise pooleks",
+        "description":"Improetendustel on alati teatav salapärasus, sest kunagi ei tea, millistel teemadel näitlema hakatakse. Samas on põnev jälgida, kuidas näitlejad keerukate olukordadega toime tulevad. Kuna Ott Sepp on minu jaoks Eesti Benny Hill, siis ootused olid õhtuseks meelelahutuseks kõrged. Samas mõlgutasin mõtteid, kas näitlejate koorekiht tulebki keerukas majanduslikus olukorras toime vaid tänu baarides esinemistele?!",
+        "image":"2022/arvustus-koomilised-lood.jpg",
+        "date":"2022-10-29",
+        "publisher":"Õhtuleht"
+      },
       {
         "title":"Tallinnas alustab tööd uus improvisatsioonile keskenduv teatrikool",
         "publisher":"ERR",
@@ -39,6 +89,14 @@
         "publisher": "ERR",
         "description": "Esinemishirmuga ehk glossofoobiaga aastaid kimpus olnud Anti Veeranna rääkis Ringvaates, kuidas ta sellest improteatri abil üle sai. \"Üks võimalus selleks on improteatriga tegelemine,\" ütles Veeranna. Tema sõnul on improteater suuresti seotud nalja tegemisega laval. \"Sa hakkad õppima seda turvalises ruumis, kus on koos umbes seitse kuni kümme inimest ja te kõik teete sama asja,\" lausus Veeranna ja tõi Ringvaates ka konkreetse näite, mida improteatris tehakse, et esinemishirmu alandada",
         "link": "https://menu.err.ee/1608602950/esinemishirmuga-kimpus-olnud-anti-veeranna-sai-sellest-improteatriga-ule"
+      },
+      {
+        "title": "Peaasi ja Ruutu10 alustavad vaimset tervist toetavat improtuuri Lõuna-Eestis",
+        "date":"2022-03-31",
+        "publisher":"RingFM",
+        "link":"https://ringfm.treraadio.ee/uudised/15836/peaasi-ja-ruutu10-alustavad-vaimset-tervist-toetavat-improtuuri-louna-eestis",
+        "description":"Peaasi.ee, Ruutu10 ja Tartu 2024 eestvedamisel stardib 2. aprillil kell 18 Nõo Kultuurimajas Euroopa kultuuripealinna projekt “Peaasi ajab naerma!”. Sündmusel saadakse osa meeleolukast vaimse tervise improetendusest, aruteluringist ning töötoast.",
+        "image":"2022/ringfm-peaasi.png"
       },
       {
         "title": "Lõuna-Eestis algab vaimset tervist toetav improvisatsioonituur",
