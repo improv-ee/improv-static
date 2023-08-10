@@ -1,12 +1,15 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+import { defineNuxtConfig } from 'nuxt/config'
+const path = require('path');
 export default defineNuxtConfig({
-    "target":"static",
+    nitro: {
+        output: {
+          publicDir: path.join(__dirname, 'static')
+        }
+      },
     "css": [
         "~/assets/scss/main.scss"
     ],
     modules: [
-        '@nuxtjs/sitemap'
+        'nuxt-simple-sitemap'
       ],
 })
