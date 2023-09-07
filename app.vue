@@ -74,11 +74,6 @@ export default {
         { rel: 'icon', type: 'image/png', sizes:"192x192", href: favicon192 },
         { rel: 'icon', type: 'image/png', sizes:"512x512", href: favicon512 },
         { rel: 'apple-touch-icon', sizes: '180x180', href:appleTouchIcon}
-      ],
-      script: [
-        {
-          src: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
-        },
       ]
     }
   }
