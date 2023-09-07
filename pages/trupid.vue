@@ -1,6 +1,4 @@
 <template>
-
-
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <OrganizationCard name="Ruutu10" image="/img/ruutu10.jpg" link="https://ruutu10.ee">
             <template #description>
@@ -89,18 +87,15 @@
             </template>
         </OrganizationCard>
     </div>
-
 </template>
-<script>
-
-export default {
-    head() {
-        return {
-            meta: [
-                { name: 'description', content: 'Eestis tegutsevate improtruppide register' },
-                { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improteatrid eestis,improtrupid eestis,improtrupid,impro grupid,ruutu10,improteater impeerium,improimpeerium,ehatäht,eesti improteater,kahe vahel,kimproose' }
-            ],
-        }
-    }
-}
+<script setup>
+useSeoMeta({
+    description: 'Eestis tegutsevate improtruppide register',
+    ogDescription: 'Eestis tegutsevate improtruppide register',
+})
+useHead({
+    meta: [
+        { name: 'keywords', content: 'improteater,impro,improv,impro eestis,improteatrid eestis,improtrupid eestis,improtrupid,impro grupid,ruutu10,improteater impeerium,improimpeerium,ehatäht,eesti improteater,kahe vahel,kimproose' }
+    ]
+})
 </script>
