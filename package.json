@@ -12,7 +12,7 @@
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.3",
     "md5": "^2.3.0",
-    "nuxt": "^3.7.0",
+    "nuxt": "^3.7.1",
     "nuxt-simple-sitemap": "^3.2.6",
     "sass": "^1.66.1"
   }
