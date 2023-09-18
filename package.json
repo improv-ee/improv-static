@@ -10,7 +10,7 @@
     "@cloudflare/pages-plugin-mailchannels": "^0.1.1",
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.3.2",
-    "bootstrap-icons": "^1.10.3",
+    "bootstrap-icons": "^1.11.1",
     "md5": "^2.3.0",
     "nuxt": "^3.7.0",
     "nuxt-simple-sitemap": "^3.2.6",
