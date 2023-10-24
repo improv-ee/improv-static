@@ -29,7 +29,7 @@
             <template #collapse-body>
 
                 <ul>
-
+                    <li><a href="https://improimpeerium.ee/podcast/">Supervõimed eluks</a></li>
                     <li><a href="https://open.spotify.com/show/55589iO33MlZNsVOXLkBGw">IMPROVERT podcast Rauno
                             Meroniga</a></li>
                     <li><a href="https://pooltund.improv.ee">Impropooltund</a></li>
