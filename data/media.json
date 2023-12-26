@@ -1,6 +1,14 @@
   {
     "2023": [
       {
+        "title":"Lisatulu podcast - #65 Rahel Otsa",
+        "publisher":"Lisatulu podcast",
+        "description":"Rahel Otsa on väga särtsakas ja ettevõtlik naine, kes on ehitanud endale lisasissetuleku õhtujuhtimisest ja koolituste läbiviimisest. Rahel on asutanud ka omanimelise improkooli ning ta viib läbi nii improvisatsiooni (kui teatrivormi) tutvustavaid kursuseid kui improvisatsioonil põhinevaid meeskonnakoolitusi.",
+        "image":"2023/lisatulu-podcast.jpg",
+        "date":"2023-12-06",
+        "link":"https://open.spotify.com/episode/3uqM0EvV2o1TFw4Ise81jT"
+      },
+      {
         "title":"#32 Rahel Otsa - Kuidas arendada oskusi, et ootamatustega paremini toime tulla?",
         "publisher":"AEGA ON",
         "description":"Kuidas toime tulla ootamatustega, mida kiire maailm meile pakub? Milliseid oskusi endas selleks arendada? Kutsusime külla Improkoolitaja Rahel Otsa ning uurisime, milliseid oskusi improteatris arendatakse, et ootamatustega paremi toime tulla ning kuidas ka iseseisvalt neid oskusi arendada.",
@@ -39,6 +47,14 @@
         "image":"2023/2023-09-impeerium-klassika.jpg",
         "date":"2023-09-21",
         "link":"https://klassikaraadio.err.ee/1609093604/delta-21-septembril-aule-urb-impro-impeerium-semmarit-august-albo/facd368969a18e39e7d1048581a02585"
+      },
+      {
+        "title":"Why Improv is necessary in Estonia? Life In Estonia #13",
+        "publisher":"Life in Estonia with Manan",
+        "description":"My guest is Rahel Otsa. She is one of the pioneers of improv in Estonia. She has been instrumental in brining improv to Estonia and has led the scene through her own work. She has done workshops across the world, from Nepal to Finland and Estonia.",
+        "image":"2023/life-in-estonia.jpg",
+        "date":"2023-09-05",
+        "link":"https://www.youtube.com/watch?v=mo1FWLrXvoI"
       },
       {
         "title":"ANNAME HOOGU - Improvisatsiooniline teatrivorm saab sügisel oma kodu",
