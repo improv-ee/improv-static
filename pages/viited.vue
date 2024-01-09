@@ -33,6 +33,7 @@
                     <li><a href="https://open.spotify.com/show/55589iO33MlZNsVOXLkBGw">IMPROVERT podcast Rauno
                             Meroniga</a></li>
                     <li><a href="https://pooltund.improv.ee">Impropooltund</a></li>
+                    <li><a href="https://open.spotify.com/show/6LK0WvSSIMmeYZnXvs069t?si=3d0e21bbfc304ea2">Impro ja inimesed</a></li>
                 </ul>
             </template>
         </AccordionItem>
