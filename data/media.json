@@ -7,8 +7,31 @@
         "image": "2024/2024-04-postimees-hobi.jpg",
         "date": "2024-04-12",
         "link": "https://tervis.postimees.ee/7999216/hobi-mis-teeb-sinust-parema-inimese-ja-hoiab-vaimset-tervist"
+      },
+      {
+        "title": "KUKU raadio “Sihik”: Merilin Kirbits. Naljapäeval naljast.",
+        "publisher": "KUKU",
+        "description": "Milline nali on naljakas ja kes ja kas üldse saab selle üle otsustada? Kuidas on nali aastatega muutunud? Räägime naljast Improteatri näitleja ja koolitaja Merilin Kirbitsaga.",
+        "image": "2024/2024-04-impeerium-kuku.jpg",
+        "date": "2024-04-01",
+        "link": "https://kuku.pleier.ee/podcast/sihik/177468"
+      },
+      {
+        "title": "Improteater IMPEERIUM ETV kultuurisaates “OP”",
+        "publisher": "ERR",
+        "description": "Kultuurisaates OP tähistati sel nädalal improteater Impeeriumi kümendat sünnipäeva ja räägiti improvisatoorse teatri olemusest laiemalt. Impeeriumi loomejuht Merilin Kibrits nentis saates, et hetkel on improteater Eestis sellises kohas, kus inimesed ei ole valmis tõsist improt vastu võtma.",
+        "image": "2024/2024-03-impeerium-op.jpg",
+        "date": "2024-03-29",
+        "link": "https://kultuur.err.ee/1609297635/merilin-kirbits-eesti-publik-ei-ole-veel-valmis-tosist-improt-vastu-votma"
+      },
+      {
+        "title": "TV3 “Stuudio”: Saates on improviseerivad näitlejad Veikko Täär, Erki Aule ning Mairi Tikerpalu",
+        "publisher": "TV3",
+        "description": "Saates on improviseerivad näitlejad Veikko Täär, Erki Aule ning Mairi Tikerpalu.",
+        "image": "2024/2024-02-tv3-stuudio.webp",
+        "date": "2024-02-14",
+        "link": "https://www.tv3.ee/stuudio-klipid/saates-on-improviseerivad-naitlejad-veikko-taar-erki-aule-ning-mairi-tikerpalu/"
       }
-
     ],
     "2023": [
       {
@@ -26,6 +49,22 @@
         "image":"2023/aega-on.jpg",
         "date":"2023-12-02",
         "link":"https://open.spotify.com/episode/2pPsnxaBnmgGybRFUOnBYt"
+      },
+      {
+        "title":"Merilin Kirbits ja Rauno Kaibiainen. Improteatri igal etendusel sünnib ka päriselt üks teatriime",
+        "publisher":"Vikerraadio",
+        "description":"Improteater IMPEERIM sai 10. aastaseks! Merilin Kirbits ja Rauno Kaibiainen improviseerisid raadio eetris ühe loo ja muljetasid impro positiivsest mõjust inimestele.",
+        "image":"2023/2023-11-mr-viker.jpg",
+        "date":"2023-11-19",
+        "link":"https://vikerraadio.err.ee/1609169324/merilin-kirbits-ja-rauno-kaibiainen-improteatri-igal-etendusel-sunnib-ka-pariselt-uks-teatriime"
+      },
+      {
+        "title":"KUKITEMUKI: Milleks meile improteater?",
+        "publisher":"Raplamaa Sõnumid",
+        "description":"Mäng ja mängimine on hämmastavalt oluline osa inimeseks olemises. See annab võimaluse oma oskusi ja teadmisi proovile panna, emotsioone väljendada, vigu teha ja katsetada.",
+        "image":"2023/Improproff-Kabli-rannas-2022-1068x580.webp",
+        "date":"2023-11-14",
+        "link":"https://sonumid.ee/2023/11/14/milleks-meile-improteater/"
       },
       {
         "title":"Üllar Saaremäe astub lavale improteatri sketšikomöödias",
