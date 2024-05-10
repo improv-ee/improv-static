@@ -21,6 +21,8 @@
                     <li><a href="#">Ruutu10 (Discord)</a></li>
                     <li><a href="https://www.facebook.com/groups/1311238489388244">Tallinn Improv Group (Facebook)</a></li>
                     <li><a href="https://www.facebook.com/profile.php?id=100076304285341">Improring Improrong</a> (Facebook, London)</li>
+                    <li><a href="https://improv.ee/whatsapp">Whatsapp "Improv Estonia" (Mihkel Nurm)</a></li>
+                    <li><a href="https://improv.ee/kalender">Tallinna improsündmuste Google Kalender (Arne Riso)</a></li>
                 </ul>
             </template>
         </AccordionItem>
