@@ -1,66 +1,109 @@
 <script setup>
 import { VueFlow } from '@vue-flow/core'
 import { Background } from '@vue-flow/background'
+import OriginNode from '../components/flow/OriginNode.vue'
+import GroupNode from '../components/flow/GroupNode.vue'
+import { ControlButton, Controls } from '@vue-flow/controls'
+import '@vue-flow/controls/dist/style.css'
 
 const elements = ref([
     // nodes
 
-    { id: 'rednar', type: 'input', label: 'Rednar Annus', position: { x: 300, y: 0 } },
+    { type: 'origin', id: 'rednar', label: 'Rednar Annus', position: { x: 300, y: 0 }, data: { years: { start: 2009 } } },
 
-    { id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 100 } },
-    { id: 'improteater', label: 'Eesti Improteater', position: { x: 450, y: 100 } },
+    { type: 'origin', id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 150 }, data: { years: { start: 2009 } } },
+    { type: 'group', id: 'improteater', label: 'Eesti Improteater', position: { x: 450, y: 150 }, data: { years: { start: 2009 } } },
 
-    { id: 'jaa', label: 'Improgrupp Jaa!', position: { x: 0, y: 200 }, },
-    { id: 'improkool', label: 'Rahel Otsa Improkool', position: { x: 200, y: 200 } },
-    { id: 'impeerium', label: 'Improteater IMPEERIUM', position: { x: 400, y: 200 } },
+    { type: 'archived', id: 'jaa', label: 'Improgrupp Jaa!', position: { x: 0, y: 300 }, data: { otherNames: ["Jaa Improteater"], years: { start: 2009, end: 2019 } } },
+    { type: 'group', id: 'improkool', label: 'Rahel Otsa Improkool', position: { x: 200, y: 300 }, data: { years: { start: 2022 } } },
+    { type: 'group', id: 'impeerium', label: 'Improteater IMPEERIUM', position: { x: 450, y: 300 }, data: { years: { start: 2013 } } },
 
-    { id: 'ruutu10', label: 'Ruutu10', position: { x: 200, y: 300 } },
-    { id: 'ehataht', label: 'Ehatäht', position: { x: 500, y: 350 } },
-    { id: 'kimproose', label: 'kIMPROose', position: { x: 800, y: 300 } },
-
-    
-    {id: 'tonis-tanelita', label:'Tõnis (ilma Tanelita)', position: {x:0,y:500}},
-    {id: 'marold', label:'Märold', position: {x:200,y:500}},
-    {id: 'tr', label:'Toivo ja Rauno', position: {x:400,y:500}},
-    {id: 'meelis', label:'Meelis', position: {x:600,y:500}},
-    {id: 'kogumoos', label:'Kogu Moos', position: {x:800,y:500}},
+    { type: 'group', id: 'ruutu10', label: 'Ruutu10', position: { x: 200, y: 450 }, data: { otherNames: ["Improkraatia"], years: { start: 2013 } } },
+    { type: 'group', id: 'ehataht', label: 'Ehatäht', position: { x: 400, y: 450 }, data: { years: { start: 2018 } } },
+    { type: 'group', id: 'kimproose', label: 'kIMPROose', position: { x: 800, y: 430 }, data: { years: { start: 2022 } } },
 
 
-    { id: 'e-rednar-improteater', source: 'rednar', target: 'improteater', animated: true },
-    { id: 'e-rednar-rahel', source: 'rednar', target: 'rahel', animated: true },
-    { id: 'e-rahel-kool', source: 'rahel', target: 'improkool', animated: true },
-    { id: 'e-rahel-jaa', source: 'rahel', target: 'jaa', animated: true },
-    { id: 'e-improteater-impeerium', source: 'improteater', target: 'impeerium', animated: true },
-    { id: 'e-jaa-ruutu', source: 'jaa', target: 'ruutu10', animated: true },
+    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 0, y: 700 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2022 } } },
+    { type: 'group', id: 'marold', label: 'Märold', position: { x: 200, y: 700 }, data: { years: { start: 2022 } } },
+    { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 400, y: 700 }, data: { years: { start: 2021 } } },
+    { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 700, y: 600 }, data: { years: { start: 2019, end: 2022 } } },
+    { type: 'archived', id: 'kogumoos', label: 'Kogu Moos', position: { x: 850, y: 600 }, data: { years: { start: 2015, end: 2017 } } },
+    { type: 'archived', id: 'esimeneklass', label: 'Esimene Klass', position: { x: 1000, y: 600 }, data: { years: { start: 2014, end: 2017 } } },
+    { type: 'archived', id: 'koosen', label: 'Koosen', position: { x: 550, y: 600 }, data: { years: { start: 2014, end: 2017 } } },
+
+
+    { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true },
+    { id: 'e-rednar-rahel', label: 'koolitas', source: 'rednar', target: 'rahel', animated: true },
+    { id: 'e-rahel-kool', label: 'asutas', source: 'rahel', target: 'improkool', animated: true },
+    { id: 'e-rahel-jaa', label: 'asutas', source: 'rahel', target: 'jaa', animated: true },
+    { id: 'e-improteater-impeerium', label: 'hargnes', source: 'improteater', target: 'impeerium', animated: true },
+    { id: 'e-jaa-ruutu', source: 'jaa', label: 'hargnes', target: 'ruutu10', animated: true },
 
     { id: 'e-ruutu-ope-tanel', source: 'ruutu10', target: 'tonis-tanelita', animated: true },
-    { id: 'e-ope-marold', source: 'ruutu10', label:'Improõpe (juhendaja Märt Samma)', target: 'marold', animated: true },
-    { id: 'e-tr', source: 'ruutu10', target: 'tr', animated: true },
+    { id: 'e-ope-marold', source: 'ruutu10', label: 'juhendas', target: 'marold', animated: true },
+    { id: 'e-tr', source: 'ruutu10', label: 'duo', target: 'tr', animated: true },
     { id: 'e-ruutu10-meelis', source: 'ruutu10', target: 'meelis', animated: true },
     { id: 'e-ruutu10-kogumoos', source: 'ruutu10', target: 'kogumoos', animated: true },
+    { id: 'e-ruutu10-esimeneklass', label:'juhendas', source: 'ruutu10', target: 'esimeneklass', animated: true },
+    { id: 'e-ruutu10-koosen', label:'juhendas', source: 'ruutu10', target: 'koosen', animated: true },
 
-    { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label:'VGT improõpe (juhendaja Mairi Tikerpalu)', animated: true },
-    { id: 'e-impeerium-kimproose', source: 'impeerium', target: 'kimproose', label:'Improõpe (juhendaja Marius Pärn)', animated: true },
+    { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label: 'juhendas', animated: true },
+    { id: 'e-impeerium-kimproose', source: 'impeerium', target: 'kimproose', label: 'juhendas', animated: true },
 
 
 
 ])
 </script>
 
+<style>
+.vue-flow__node-group {
+    background: #e9edf2;
+    padding: 10px;
+    border-radius: 0.4rem;
+}
+
+.vue-flow__node-archived {
+    background: #fffbd4;
+    color: #999;
+    padding: 10px;
+    border-radius: 0.4rem;
+}
+
+.vue-flow__node-origin {
+    background: #b7f7c2;
+    padding: 10px;
+}
+</style>
 <template>
+    <div>
+        <div style="width: 100%; height: 50rem;">
+            <h2 class="text-center display-3 mb-4">Impropuu</h2>
 
-    <div style="width: 100%; height: 700px;">
-        <h2>Impropuu</h2>
-        
-        <p>Improgruppide ajalugu visuaalselt.</p>
+            <p>Improgruppide ajalugu visuaalselt. Gruppidena arvestatakse koos regulaarselt improviseerivaid
+                kollektiive, kes on koos käinud vähemalt aasta, ning esinenud improõppe väliselt. Loe kollektiividest lähemalt 
+                <NuxtLink to="/trupid">Trupid</NuxtLink> lehelt.
+            </p>
 
-        <VueFlow fit-view-on-init v-model="elements" :default-viewport="{ zoom: 1.5 }" :min-zoom="0.2" :max-zoom="4">
-            <!-- bind your custom node type to a component by using slots, slot names are always `node-<type>` -->
+            <VueFlow fit-view-on-init v-model="elements" :default-viewport="{ zoom: 1.5 }" :min-zoom="0.2"
+                :max-zoom="4">
+                <Background />
+                <template #node-origin="{ label, data }">
+                    <OriginNode :name="label" :data="data" />
+                </template>
+                <template #node-group="{ label, data }">
+                    <GroupNode :name="label" :data="data" />
+                </template>
+                <template #node-archived="{ label, data }">
+                    <GroupNode :name="label" :data="data" />
+                </template>
+                <Controls position="top-right">
+                </Controls>
 
-            <Background />
-        </VueFlow>
+            </VueFlow>
+
+        </div>
+        <p style="margin-top: 10em">Info ebaõige või grupp puudu? Kirjuta meile või saada <a href="https://github.com/improv-ee/improv-static/blob/main/pages/impropuu.vue">muudatusettepanek</a>.</p>
     </div>
-
 </template>
 
 <style>
