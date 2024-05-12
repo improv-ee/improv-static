@@ -92,7 +92,7 @@ const elements = ref([
             <h2 class="text-center display-3 mb-4">Impropuu</h2>
 
             <p>Improgruppide ajalugu visuaalselt. Gruppidena arvestatakse koos regulaarselt improviseerivaid
-                kollektiive, kes on koos käinud vähemalt aasta, ning esinenud improõppe väliselt. Loe kollektiividest lähemalt 
+                kollektiive, kes esinevad improõppe väliselt. Loe kollektiividest lähemalt 
                 <NuxtLink to="/trupid">Trupid</NuxtLink> lehelt.
             </p>
 
