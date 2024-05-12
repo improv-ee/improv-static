@@ -9,16 +9,16 @@ import '@vue-flow/controls/dist/style.css'
 const elements = ref([
     // nodes
 
-    { type: 'origin', id: 'rednar', label: 'Rednar Annus', position: { x: 300, y: 0 }, data: { years: { start: 2009 } } },
+    { type: 'origin', id: 'rednar', label: 'Rednar Annus', position: { x: 500, y: 0 }, data: { years: { start: 2009 } } },
+    { type: 'origin', id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 0 }, data: { years: { start: 2009 } } },
 
-    { type: 'origin', id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 150 }, data: { years: { start: 2009 } } },
     { type: 'group', id: 'improteater', label: 'Eesti Improteater', position: { x: 450, y: 150 }, data: { years: { start: 2009 } } },
-
     { type: 'archived', id: 'jaa', label: 'Improgrupp Jaa!', position: { x: 0, y: 300 }, data: { otherNames: ["Jaa Improteater"], years: { start: 2009, end: 2019 } } },
     { type: 'group', id: 'improkool', label: 'Rahel Otsa Improkool', position: { x: 200, y: 300 }, data: { years: { start: 2022 } } },
-    { type: 'group', id: 'impeerium', label: 'Improteater IMPEERIUM', position: { x: 450, y: 300 }, data: { years: { start: 2013 } } },
 
+    { type: 'group', id: 'impeerium', label: 'Improteater IMPEERIUM', position: { x: 450, y: 300 }, data: { years: { start: 2013 } } },
     { type: 'group', id: 'ruutu10', label: 'Ruutu10', position: { x: 200, y: 450 }, data: { otherNames: ["Improkraatia"], years: { start: 2013 } } },
+
     { type: 'group', id: 'ehataht', label: 'Ehatäht', position: { x: 400, y: 450 }, data: { years: { start: 2018 } } },
     { type: 'group', id: 'jargmisekorrani', label: 'Järgmise Korrani', position: { x: 550, y: 450 }, data: { years: { start: 2023 } } },
     { type: 'group', id: 'kimproose', label: 'kIMPROose', position: { x: 800, y: 430 }, data: { years: { start: 2022 } } },
@@ -41,7 +41,6 @@ const elements = ref([
 
 
     { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true },
-    { id: 'e-rednar-rahel', label: 'koolitas', source: 'rednar', target: 'rahel', animated: true },
     { id: 'e-rahel-kool', label: 'asutas', source: 'rahel', target: 'improkool', animated: true },
     { id: 'e-rahel-jaa', label: 'asutas', source: 'rahel', target: 'jaa', animated: true },
     { id: 'e-improteater-impeerium', label: 'hargnes', source: 'improteater', target: 'impeerium', animated: true },
