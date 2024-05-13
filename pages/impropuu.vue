@@ -9,8 +9,8 @@ import '@vue-flow/controls/dist/style.css'
 const elements = ref([
     // nodes
 
-    { type: 'origin', id: 'rednar', label: 'Rednar Annus', position: { x: 500, y: 0 }, data: { years: { start: 2009 } } },
-    { type: 'origin', id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 0 }, data: { years: { start: 2009 } } },
+    { type: 'origin', id: 'rednar', label: 'Rednar Annus', position: { x: 500, y: 0 }, data: { years: { start: 2008 } } },
+    { type: 'origin', id: 'rahel', label: 'Rahel Otsa', position: { x: 200, y: 0 }, data: { years: { start: 2008 } } },
 
     { type: 'group', id: 'improteater', label: 'Eesti Improteater', position: { x: 450, y: 150 }, data: { years: { start: 2009 } } },
     { type: 'archived', id: 'jaa', label: 'Improgrupp Jaa!', position: { x: 0, y: 300 }, data: { otherNames: ["Jaa Improteater"], years: { start: 2009, end: 2019 } } },
