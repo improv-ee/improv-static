@@ -71,14 +71,16 @@ const elements = ref([
 
 <style>
 .vue-flow__node-group {
-    background: #e9edf2;
+    background: #fffbd4;
+
     padding: 10px;
     border-radius: 0.4rem;
 }
 
 .vue-flow__node-archived {
-    background: #fffbd4;
     color: #999;
+    background: #e9edf2;
+
     padding: 10px;
     border-radius: 0.4rem;
 }
