@@ -33,9 +33,9 @@ const elements = ref([
     { type: 'archived', id: 'esimeneklass', label: 'Esimene Klass', position: { x: 1000, y: 600 }, data: { years: { start: 2014, end: 2016 } } },
     { type: 'archived', id: 'komejant', label: 'Komejant', position: { x: 1200, y: 600 }, data: { years: { start: 2016, end: 2017 } } },
     { type: 'archived', id: 'koosen', label: 'Koosen', position: { x: 0, y: 800 }, data: { years: { start: 2014, end: 2016 } } },
-    { type: 'archived', id: 'suhtepundar', label: 'Suhtepundar', position: { x: 600, y: 800 }, data: { years: { start: 2021, end: 2023 } } },
+    { type: 'archived', id: 'suhtepundar', label: 'Suhtepundar', position: { x: 600, y: 1000 }, data: { years: { start: 2021, end: 2023 } } },
 
-    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 600 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
+    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 580 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1000, y: 800 }, data: { years: { start: 2024 } } },
     
     
@@ -59,6 +59,7 @@ const elements = ref([
     { id: 'e-ruutu10-esimeneklass', label:'juhendas', source: 'ruutu10', target: 'esimeneklass', animated: true },
     { id: 'e-ruutu10-koosen', label:'juhendas', source: 'ruutu10', target: 'koosen', animated: true },
     { id: 'e-ruutu10-komejant', label:'juhendas', source: 'ruutu10', target: 'komejant', animated: true },
+    { id: 'e-ruutu10-improssiivne', label:'juhendas', source: 'ruutu10', target: 'improssiivne', animated: true },
 
     { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label: 'juhendas', animated: true },
     { id: 'e-impeerium-kimproose', source: 'impeerium', target: 'kimproose', label: 'juhendas', animated: true },
