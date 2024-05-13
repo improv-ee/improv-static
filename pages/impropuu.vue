@@ -64,9 +64,15 @@ const elements = ref([
     { id: 'e-impeerium-kimproose', source: 'impeerium', target: 'kimproose', label: 'juhendas', animated: true },
     { id: 'e-impeerium-jargmisekorrani', source: 'impeerium', target: 'jargmisekorrani', label: 'juhendas', animated: true },
 
-
-
 ])
+
+useSeoMeta({
+  title: 'Impropuu - Improviseeritud teater Eestis',
+  ogTitle:'Impropuu - Improviseeritud teater Eestis',
+  description: 'Info Eestis impromaastiku kohta - tegutsevad improtrupid, impro õppimine, impro tellimine üritustele või koolituseks, impro viited ja ajalugu.',
+  ogDescription: 'Info Eestis impromaastiku kohta - tegutsevad improtrupid, impro õppimine, impro tellimine üritustele või koolituseks, impro viited ja ajalugu.',
+})
+
 </script>
 
 <style>
