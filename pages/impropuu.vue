@@ -17,27 +17,29 @@ const elements = ref([
     { type: 'group', id: 'improkool', label: 'Rahel Otsa Improkool', position: { x: 200, y: 300 }, data: { years: { start: 2022 } } },
 
     { type: 'group', id: 'impeerium', label: 'Improteater IMPEERIUM', position: { x: 450, y: 300 }, data: { years: { start: 2013 } } },
-    { type: 'group', id: 'ruutu10', label: 'Ruutu10', position: { x: 200, y: 450 }, data: { otherNames: ["Improkraatia"], years: { start: 2013 } } },
+    { type: 'group', id: 'ruutu10', label: 'Ruutu10', position: { x: 250, y: 700 }, data: { otherNames: ["Improkraatia"], years: { start: 2013 } } },
+    { type: 'archived', id: 'raheljatimo', label: 'Rahel ja Timo', position: { x: 0, y: 500 }, data: { years: { start: 2017,end:2018 } } },
 
     { type: 'group', id: 'ehataht', label: 'Ehatäht', position: { x: 400, y: 450 }, data: { years: { start: 2018 } } },
     { type: 'group', id: 'jargmisekorrani', label: 'Järgmise Korrani', position: { x: 550, y: 450 }, data: { years: { start: 2023 } } },
     { type: 'group', id: 'kimproose', label: 'kIMPROose', position: { x: 800, y: 430 }, data: { years: { start: 2022 } } },
 
-    { type: 'group', id: 'marold', label: 'Märold', position: { x: 200, y: 800 }, data: { years: { start: 2022 } } },
-    { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 350, y: 700 }, data: { years: { start: 2021 } } },
-    { type: 'group', id: 'kahevahel', label: 'Kahe Vahel', position: { x: 0, y: 700 }, data: { years: { start: 2018 } } },
-    { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 700, y: 600 }, data: { years: { start: 2019, end: 2022 } } },
+    { type: 'group', id: 'marold', label: 'Märold', position: { x: 200, y: 1000 }, data: { years: { start: 2022 } } },
+    { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 350, y: 900 }, data: { years: { start: 2021 } } },
+    { type: 'group', id: 'kahevahel', label: 'Kahe Vahel', position: { x: 0, y: 1000 }, data: { years: { start: 2018 } } },
+    { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 200, y: 450 }, data: { years: { start: 2019, end: 2022 } } },
     { type: 'archived', id: 'kogumoos', label: 'Kogu Moos', position: { x: 850, y: 600 }, data: { years: { start: 2015, end: 2017 } } },
-    { type: 'archived', id: 'esimeneklass', label: 'Esimene Klass', position: { x: 1000, y: 600 }, data: { years: { start: 2014, end: 2017 } } },
+    { type: 'archived', id: 'improssiivne', label: 'Improssiivne', position: { x: 600, y: 600 }, data: { years: { start: 2015, end: 2016 } } },
+    { type: 'archived', id: 'esimeneklass', label: 'Esimene Klass', position: { x: 1000, y: 600 }, data: { years: { start: 2014, end: 2016 } } },
     { type: 'archived', id: 'komejant', label: 'Komejant', position: { x: 1200, y: 600 }, data: { years: { start: 2016, end: 2017 } } },
-    { type: 'archived', id: 'koosen', label: 'Koosen', position: { x: 550, y: 600 }, data: { years: { start: 2014, end: 2017 } } },
+    { type: 'archived', id: 'koosen', label: 'Koosen', position: { x: 0, y: 800 }, data: { years: { start: 2014, end: 2016 } } },
     { type: 'archived', id: 'suhtepundar', label: 'Suhtepundar', position: { x: 600, y: 800 }, data: { years: { start: 2021, end: 2023 } } },
 
-    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 750, y: 850 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2022 } } },
+    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 600 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1000, y: 800 }, data: { years: { start: 2024 } } },
     
     
-    { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 400, y: 850 }, data: { years: { start: 2024 } } },
+    { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 900, y: 1000 }, data: { years: { start: 2024 } } },
 
 
     { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true },
@@ -45,12 +47,13 @@ const elements = ref([
     { id: 'e-rahel-jaa', label: 'asutas', source: 'rahel', target: 'jaa', animated: true },
     { id: 'e-improteater-impeerium', label: 'hargnes', source: 'improteater', target: 'impeerium', animated: true },
     { id: 'e-jaa-ruutu', source: 'jaa', label: 'hargnes', target: 'ruutu10', animated: true },
+    { id: 'e-jaa-raheltimo', source: 'jaa', label: 'duo', target: 'raheljatimo', animated: true },
 
     { id: 'e-tonis-meelis', label:'muutus', source: 'meelis', target: 'tonis-tanelita', animated: true },
     { id: 'e-ope-marold', source: 'ruutu10', label: 'juhendas', target: 'marold', animated: true },
     { id: 'e-tr', source: 'ruutu10', label: 'duo', target: 'tr', animated: true },
     { id: 'e-kahe-vahel', source: 'ruutu10', label: 'duo', target: 'kahevahel', animated: true },
-    { id: 'e-ruutu10-meelis', source: 'ruutu10', target: 'meelis', animated: true },
+    { id: 'e-jaa-meelis', source: 'jaa', target: 'meelis', animated: true },
     { id: 'e-ruutu10-kogumoos', source: 'ruutu10', target: 'kogumoos', animated: true },
     { id: 'e-ruutu10-suhtepundar', source: 'ruutu10', target: 'suhtepundar', label:'juhendas', animated: true },
     { id: 'e-ruutu10-esimeneklass', label:'juhendas', source: 'ruutu10', target: 'esimeneklass', animated: true },
