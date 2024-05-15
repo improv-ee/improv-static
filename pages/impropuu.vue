@@ -25,7 +25,7 @@ const elements = ref([
     { type: 'group', id: 'kimproose', label: 'kIMPROose', position: { x: 800, y: 430 }, data: { years: { start: 2022 } } },
 
     { type: 'group', id: 'marold', label: 'Märold', position: { x: 200, y: 1000 }, data: { years: { start: 2022 } } },
-    { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 350, y: 900 }, data: { years: { start: 2021 } } },
+    { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 350, y: 900 }, data: { years: { start: 2017 } } },
     { type: 'group', id: 'kahevahel', label: 'Kahe Vahel', position: { x: 0, y: 1000 }, data: { years: { start: 2018 } } },
     { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 200, y: 450 }, data: { years: { start: 2019, end: 2022 } } },
     { type: 'archived', id: 'kogumoos', label: 'Kogu Moos', position: { x: 850, y: 600 }, data: { years: { start: 2015, end: 2017 } } },
@@ -36,6 +36,7 @@ const elements = ref([
     { type: 'archived', id: 'suhtepundar', label: 'Suhtepundar', position: { x: 600, y: 1000 }, data: { years: { start: 2021, end: 2023 } } },
 
     { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 580 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
+    { type: 'group', id: 'kartoffel', label: 'Kartoffel', position: { x: 600, y: 780 }, data: { otherNames: ["Toivo ja Karolina"], years: { start: 2022 } } },
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1000, y: 800 }, data: { years: { start: 2024 } } },
     
     
@@ -64,6 +65,7 @@ const elements = ref([
     { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label: 'juhendas', animated: true },
     { id: 'e-impeerium-kimproose', source: 'impeerium', target: 'kimproose', label: 'juhendas', animated: true },
     { id: 'e-impeerium-jargmisekorrani', source: 'impeerium', target: 'jargmisekorrani', label: 'juhendas', animated: true },
+    { id: 'e-ruutu10-kartoffel', source: 'ruutu10', target: 'kartoffel', label: 'duo', animated: true },
 
 ])
 
