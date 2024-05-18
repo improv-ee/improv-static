@@ -22,8 +22,8 @@ const elements = ref([
     { type: 'archived', id: 'raheljatimo', label: 'Rahel ja Timo', position: { x: 0, y: 500 }, data: { years: { start: 2017,end:2018 } } },
 
     { type: 'group', id: 'ehataht', label: 'Ehatäht', position: { x: 1000, y: 400 }, data: { years: { start: 2016 } } },
-    { type: 'group', id: 'jargmisekorrani', label: 'Järgmise Korrani', position: { x: 600, y: 500 }, data: { years: { start: 2022 } } },
-    { type: 'group', id: 'smuuti', label: 'Smuuti', position: { x: 1100, y: 600 }, data: { years: { start: 2022 } } },
+    { type: 'group', id: 'jargmisekorrani', label: 'Järgmise Korrani', position: { x: 600, y: 500 }, data: { years: { start: 2019 } } },
+    { type: 'group', id: 'smuuti', label: 'Smuuti', position: { x: 1100, y: 600 }, data: { years: { start: 2021 } } },
     { type: 'archived', id: 'paavst', label: 'Paavst tuleb homme', position: { x: 350, y: 500 }, data: { years: { start: 2020, end:2022 } } },
     { type: 'group', id: 'kimproose', label: 'kIMPROose', position: { x: 400, y: 730 }, data: { years: { start: 2022 } } },
     { type: 'group', id: 'improovijad', label: 'Improovijad', position: { x: 800, y: 550 }, data: { years: { start: 2023 } } },
