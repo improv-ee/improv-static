@@ -10,11 +10,11 @@
         {{ cta }}
     </a>
 </div>
+
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'
-// https://github.com/vitejs/vite/issues/1265#issuecomment-799669670
-const images = import.meta.globEager("../img/*.jpg");
+
 export default defineComponent({
     props: {
         link: { type: String, required: true },
