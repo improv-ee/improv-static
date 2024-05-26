@@ -43,7 +43,7 @@ const elements = ref([
     { type: 'group', id: 'kartoffel', label: 'Kartoffel', position: { x: 600, y: 1280 }, data: { otherNames: ["Toivo ja Karolina"], years: { start: 2022 } } },
     
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1000, y: 1100 }, data: { years: { start: 2024 } } },
-    { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 800, y: 1100 }, data: { years: { start: 2024 } } },
+    { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 800, y: 1100 }, data: { years: { start: 2023 } } },
 
 
     { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true },
