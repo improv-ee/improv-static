@@ -56,6 +56,19 @@
                  <source srcset="/img/gig/impeerium-sm.jpg" media="(min-width: 576px)">
             </template>
         </GigAd>
+        <GigAd image="/img/gig/rahel-sq.jpg" name="Rahel Otsa"
+        link="https://rahelotsa.ee/menuu/meeskonnakoolitused/">
+            <template #description>
+                <p>Tahad meeskonnale uut hingamist anda?
+Olemasolevatest suhtlusmustritest lahti raputada?
+Uusi teadmisi õppida või lihtsalt kollektiiviga mõnusalt aega veeta?
+Otsid lihtsalt seekord üht veidi teistsugust meeskonnakoolitust?</p>
+               <p>Improteatripõhine meeskonnakoolitus aitab tuua selles osalejad välja rutiinsetest käitumismallidest ning pakub võimalust omavahelist suhtlemist ümber mõtestada. Koolitusvahendina kasutatakse improteatri harjutusi ja mänge.</p>
+            </template>
+            <template #srcset>
+                 <source srcset="/img/gig/rahel-sq.jpg" media="(min-width: 768px)">
+            </template>
+        </GigAd>
         <GigAd image="/img/gig/elamuskirss.png" name="Elamuskirss" link="mailto:kairivilu@gmail.com?subject=%5BElamuskirss%5D%20%5Bimprov.ee%5D%20T%C3%B6%C3%B6toa%20p%C3%A4ring">
             <template #description>
                 <p>Elamuskirss OÜ pakub mängulist improteatri töötuba noortele vanuses 10+ ja täiskasvanutele.
