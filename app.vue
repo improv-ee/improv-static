@@ -44,7 +44,7 @@
 
     </main>
     <footer class="pt-5 my-5 text-muted text-center border-top">
-      improv.ee &copy; 2023 | kirjuta meile: support&#64;improv.ee | <a
+      improv.ee &copy; 2025 | kirjuta meile: support&#64;improv.ee | <a
         href="https://github.com/improv-ee/improv-static">GitHub</a>
     </footer>
   </div>
