@@ -5,6 +5,7 @@ import OriginNode from '../components/flow/OriginNode.vue'
 import GroupNode from '../components/flow/GroupNode.vue'
 import { ControlButton, Controls } from '@vue-flow/controls'
 import '@vue-flow/controls/dist/style.css'
+import { MarkerType } from '@vue-flow/core'
 
 const elements = ref([
     // nodes
@@ -34,7 +35,7 @@ const elements = ref([
     { type: 'group', id: 'potikuningas', label: 'Poti Kuningas', position: { x: 600, y: 1700 }, data: { years: { start: 2025 } } },
     { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 750, y: 1400 }, data: { years: { start: 2017 } } },
     { type: 'group', id: 'kahevahel', label: 'Kahe Vahel', position: { x: 0, y: 1500 }, data: { years: { start: 2018 } } },
-    { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 200, y: 500 }, data: { years: { start: 2019, end: 2022 } } },
+    { type: 'archived', id: 'meelis', label: 'Meelis', position: { x: 200, y: 1000 }, data: { years: { start: 2019, end: 2022 } } },
     { type: 'archived', id: 'kogumoos', label: 'Kogu Moos', position: { x: 1050, y: 1100 }, data: { years: { start: 2015, end: 2017 } } },
     { type: 'archived', id: 'improssiivne', label: 'Improssiivne', position: { x: 1000, y: 1600 }, data: { years: { start: 2015, end: 2016 } } },
     { type: 'archived', id: 'esimeneklass', label: 'Esimene Klass', position: { x: 1400, y: 1600 }, data: { years: { start: 2014, end: 2016 } } },
@@ -42,48 +43,49 @@ const elements = ref([
     { type: 'archived', id: 'koosen', label: 'Koosen', position: { x: 0, y: 1300 }, data: { years: { start: 2014, end: 2016 } } },
     { type: 'archived', id: 'suhtepundar', label: 'Suhtepundar', position: { x: 1000, y: 1500 }, data: { years: { start: 2021, end: 2023 } } },
 
-    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 650 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
+    { type: 'group', id: 'tonis-tanelita', label: 'Tõnis', position: { x: 400, y: 1500 }, data: { otherNames: ["Tõnis ilma Tanelita"], years: { start: 2019 } } },
     { type: 'group', id: 'kartoffel', label: 'Kartoffel', position: { x: 1000, y: 1280 }, data: { otherNames: ["Toivo ja Karolina"], years: { start: 2022 } } },
     { type: 'group', id: 'kaheraudne', label: 'Kaheraudne', position: { x: 1200, y: 1250 }, data: { otherNames: ["Toivo ja Maarja"], years: { start: 2025 } } },
-    { type: 'group', id: 'tsikidreas', label: 'Tšikid Reas', position: { x: 200, y: 1150 }, data: { years: { start: 2025 } } },
+    { type: 'group', id: 'tsikidreas', label: 'Tšikid Reas', position: { x: 300, y: 1150 }, data: { years: { start: 2025 } } },
 
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1400, y: 1100 }, data: { years: { start: 2024 } } },
     { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 1200, y: 1100 }, data: { years: { start: 2023 } } },
 
 
-    { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true },
-    { id: 'e-rahel-kool', label: 'asutas', source: 'rahel', target: 'improkool', animated: true },
-    { id: 'e-rahel-jaa', label: 'asutas', source: 'rahel', target: 'jaa', animated: true },
-    { id: 'e-improteater-impeerium', label: 'hargnes', source: 'improteater', target: 'impeerium', animated: true },
-    { id: 'e-improteater-neljapaevane-annus', label: 'juhendas', source: 'improteater', target: 'neljapaevane-annus', animated: true },
-    { id: 'e-jaa-ruutu', source: 'jaa', label: 'hargnes', target: 'ruutu10', animated: true },
-    { id: 'e-jaa-raheltimo', source: 'jaa', label: 'duo', target: 'raheljatimo', animated: true },
+    { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-rahel-kool', label: 'asutas', source: 'rahel', target: 'improkool', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-rahel-jaa', label: 'asutas', source: 'rahel', target: 'jaa', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-improteater-impeerium', label: 'hargnes', source: 'improteater', target: 'impeerium', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-improteater-neljapaevane-annus', label: 'juhendas', source: 'improteater', target: 'neljapaevane-annus', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-jaa-ruutu', source: 'jaa', label: 'hargnes', target: 'ruutu10', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-jaa-raheltimo', source: 'jaa', label: 'duo', target: 'raheljatimo', animated: true, markerEnd: MarkerType.ArrowClosed },
 
-    { id: 'e-improkool-sarinad', source: 'improkool', label: 'juhendas', target: 'sarinad', animated: true },
-    { id: 'e-improkool-blue', source: 'improkool', label: 'juhendas', target: 'outofblue', animated: true },
+    { id: 'e-improkool-sarinad', source: 'improkool', label: 'juhendas', target: 'sarinad', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-improkool-blue', source: 'improkool', label: 'juhendas', target: 'outofblue', animated: true, markerEnd: MarkerType.ArrowClosed },
 
-    { id: 'e-tonis-meelis', label: 'muutus', source: 'meelis', target: 'tonis-tanelita', animated: true },
-    { id: 'e-ope-marold', source: 'ruutu10', label: 'juhendas', target: 'marold', animated: true },
-    { id: 'e-marold-potikuningas', source: 'marold', label: 'juhendas', target: 'potikuningas', animated: true },
-    { id: 'e-tr', source: 'ruutu10', label: 'duo', target: 'tr', animated: true },
-    { id: 'e-kaheraudne', source: 'ruutu10', label: 'duo', target: 'kaheraudne', animated: true },
-    { id: 'e-tsikidreas', source: 'ruutu10', target: 'tsikidreas', animated: true },
-    { id: 'e-kahe-vahel', source: 'ruutu10', label: 'duo', target: 'kahevahel', animated: true },
-    { id: 'e-jaa-meelis', source: 'jaa', target: 'meelis', animated: true },
-    { id: 'e-ruutu10-kogumoos', source: 'ruutu10', target: 'kogumoos', animated: true },
-    { id: 'e-ruutu10-suhtepundar', source: 'ruutu10', target: 'suhtepundar', label: 'juhendas', animated: true },
-    { id: 'e-ruutu10-esimeneklass', label: 'juhendas', source: 'ruutu10', target: 'esimeneklass', animated: true },
-    { id: 'e-ruutu10-koosen', label: 'juhendas', source: 'ruutu10', target: 'koosen', animated: true },
-    { id: 'e-ruutu10-komejant', label: 'juhendas', source: 'ruutu10', target: 'komejant', animated: true },
-    { id: 'e-ruutu10-improssiivne', label: 'juhendas', source: 'ruutu10', target: 'improssiivne', animated: true },
+    { id: 'e-tonis-meelis', label: 'muutus', source: 'meelis', target: 'tonis-tanelita', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ope-marold', source: 'ruutu10', label: 'juhendas', target: 'marold', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-marold-potikuningas', source: 'marold', label: 'juhendas', target: 'potikuningas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-tr', source: 'ruutu10', label: 'duo', target: 'tr', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-kaheraudne', source: 'ruutu10', label: 'duo', target: 'kaheraudne', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-tsikidreas', source: 'ruutu10', target: 'tsikidreas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-kahe-vahel', source: 'ruutu10', label: 'duo', target: 'kahevahel', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-jaa-meelis', source: 'jaa', target: 'meelis', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-meelis', source: 'ruutu10', target: 'meelis', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-kogumoos', source: 'ruutu10', target: 'kogumoos', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-suhtepundar', source: 'ruutu10', target: 'suhtepundar', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-esimeneklass', label: 'juhendas', source: 'ruutu10', target: 'esimeneklass', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-koosen', label: 'juhendas', source: 'ruutu10', target: 'koosen', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-komejant', label: 'juhendas', source: 'ruutu10', target: 'komejant', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-improssiivne', label: 'juhendas', source: 'ruutu10', target: 'improssiivne', animated: true, markerEnd: MarkerType.ArrowClosed },
 
-    { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label: 'juhendas', animated: true },
-    { id: 'e-impeerium-improovijad', source: 'impeerium', target: 'improovijad', label: 'juhendas', animated: true },
-    { id: 'e-ehataht-smuuti', source: 'ehataht', target: 'smuuti', label: 'juhendas', animated: true },
-    { id: 'e-impeerium-paavst', source: 'impeerium', target: 'paavst', label: 'juhendas', animated: true },
-    { id: 'e-paavst-kimproose', source: 'paavst', target: 'kimproose', label: 'muutus', animated: true },
-    { id: 'e-impeerium-jargmisekorrani', source: 'impeerium', target: 'jargmisekorrani', label: 'juhendas', animated: true },
-    { id: 'e-ruutu10-kartoffel', source: 'ruutu10', target: 'kartoffel', label: 'duo', animated: true },
+    { id: 'e-impeerium-ehataht', source: 'impeerium', target: 'ehataht', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-impeerium-improovijad', source: 'impeerium', target: 'improovijad', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ehataht-smuuti', source: 'ehataht', target: 'smuuti', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-impeerium-paavst', source: 'impeerium', target: 'paavst', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-paavst-kimproose', source: 'paavst', target: 'kimproose', label: 'muutus', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-impeerium-jargmisekorrani', source: 'impeerium', target: 'jargmisekorrani', label: 'juhendas', animated: true, markerEnd: MarkerType.ArrowClosed },
+    { id: 'e-ruutu10-kartoffel', source: 'ruutu10', target: 'kartoffel', label: 'duo', animated: true, markerEnd: MarkerType.ArrowClosed },
 
 ])
 
