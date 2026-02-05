@@ -31,7 +31,7 @@ const elements = ref([
     { type: 'group', id: 'outofblue', label: 'Out of the Blue Duo', position: { x: 350, y: 450 }, data: { years: { start: 2025 } } },
     { type: 'group', id: 'sarinad', label: 'Särinad', position: { x: 600, y: 450 }, data: { years: { start: 2025 } } },
 
-    { type: 'group', id: 'marold', label: 'Märold', position: { x: 600, y: 1500 }, data: { years: { start: 2022 } } },
+    { type: 'group', id: 'marold', label: 'Märold', position: { x: 600, y: 1500 }, data: { years: { start: 2021 } } },
     { type: 'group', id: 'potikuningas', label: 'Poti Kuningas', position: { x: 600, y: 1700 }, data: { years: { start: 2025 } } },
     { type: 'group', id: 'tr', label: 'Toivo ja Rauno', position: { x: 750, y: 1400 }, data: { years: { start: 2017 } } },
     { type: 'group', id: 'kahevahel', label: 'Kahe Vahel', position: { x: 0, y: 1500 }, data: { years: { start: 2018 } } },
@@ -49,7 +49,7 @@ const elements = ref([
     { type: 'group', id: 'tsikidreas', label: 'Tšikid Reas', position: { x: 300, y: 1150 }, data: { years: { start: 2025 } } },
 
     { type: 'group', id: 'greenlight', label: 'Green Light Comedy', position: { x: 1400, y: 1100 }, data: { years: { start: 2024 } } },
-    { type: 'group', id: 'improviisor', label: 'Improviisor', position: { x: 1200, y: 1100 }, data: { years: { start: 2023 } } },
+    { type: 'archived', id: 'improviisor', label: 'Improviisor', position: { x: 1200, y: 1100 }, data: { years: { start: 2023, end: 2025 } } },
 
 
     { id: 'e-rednar-improteater', label: 'asutas', source: 'rednar', target: 'improteater', animated: true, markerEnd: MarkerType.ArrowClosed },
