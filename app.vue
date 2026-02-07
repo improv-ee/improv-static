@@ -27,7 +27,7 @@
             <NuxtLink to="/oppimine" class="nav-link px-2 link-dark" activeClass="active">Õppimine</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/meedias" class="nav-link px-2 link-dark" activeClass="active">Meedias</NuxtLink>
+            <NuxtLink to="https://teatmik.improv.ee/s/1541eba9-1b44-47fd-ae96-214d3b788b36/doc/improst-meedias-dP2DviATqA" class="nav-link px-2 link-dark" activeClass="active">Meedias</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/viited" class="nav-link px-2 link-dark" activeClass="active">Viited</NuxtLink>
